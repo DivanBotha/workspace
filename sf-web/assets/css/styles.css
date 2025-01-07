@@ -1,0 +1,68 @@
+:root {
+    --color-primary: #00395E;  /* Primary color */
+    --color-secondary: #809a4d;  /* Secondary color */
+    --color-tertiary: #3C6C8C;  /* Tertiary color */
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary) !important;
+}
+
+.bg-tertiary {
+    background-color: var(--color-tertiary) !important;
+}
+
+/* Custom Button Styles */
+.btn-primary {
+    background-color: var(--color-primary) !important;
+    color: #fff;
+    border: 1px solid var(--color-primary);
+}
+
+.btn-primary:hover {
+    background-color: #002d4a !important;  /* Darker shade on hover */
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary) !important;
+    color: #fff;
+    border: 1px solid var(--color-secondary);
+}
+
+.btn-secondary:hover {
+    background-color: #6f7e3b !important;  /* Darker shade on hover */
+}
+
+.btn-tertiary {
+    background-color: var(--color-tertiary) !important;
+    color: #fff;
+    border: 1px solid var(--color-tertiary);
+}
+
+.btn-tertiary:hover {
+    background-color: #2e5166 !important;  /* Darker shade on hover */
+}
+
+/* Apply Roboto font globally */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold for headers */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Regular weight for paragraphs */
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium weight for card titles */
+}

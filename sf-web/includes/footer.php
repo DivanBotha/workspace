@@ -1,4 +1,4 @@
-<footer class="bg-dark text-light py-4">
+<footer class="bg-primary text-light py-4">
     <div class="container">
         <div class="row">
             <!-- Company Information -->
@@ -16,7 +16,7 @@
                     <li><a href="index.php" class="text-light text-decoration-none">Home</a></li>
                     <li><a href="about.php" class="text-light text-decoration-none">About Us</a></li>
                     <li><a href="products.php" class="text-light text-decoration-none">Products</a></li>
-                    <li><a href="contact.php" class="text-light text-decoration-none">Contact Us</a></li>
+                    <li><a href="training.php" class="text-light text-decoration-none">Training</a></li>
                 </ul>
             </div>
 

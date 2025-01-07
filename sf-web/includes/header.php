@@ -2,7 +2,7 @@
 <section class="header header-expand-lg bg-body-tertiary">
 
     <!-- Top Contact Information -->
-    <div class="bg-dark py-2">
+    <div class="bg-primary py-2">
         <div class="container d-flex justify-content-end align-items-center">
             <div class="text-light">
                 <i class="bi bi-telephone me-2"></i>
@@ -13,8 +13,5 @@
             </div>
         </div>
     </div>
-    
-    <!-- Include Navbar -->
-    <?php include("includes/navbar.php"); ?>
 
 </section>

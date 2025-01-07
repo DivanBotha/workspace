@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Farm develops farm management software for agricultural operations">
+    <meta name="author" content="">
+
     <title>Software Farm</title>
 
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
@@ -27,6 +30,9 @@
 <body>
     <!-- Include Header -->
     <?php include("includes/header.php"); ?>
+
+    <!-- Include Navbar -->
+    <?php include("includes/navbar.php"); ?>
     
     <!-- Banner -->
     <section class="bg-dark text-light p-5 text-center">
@@ -47,37 +53,37 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- Card 1 -->
                 <div class="col">
-                    <div class="card bg-dark text-light h-100">
+                    <div class="card bg-primary text-light h-100">
                         <div class="card-body">
                             <h3 class="card-title mb-3">SimFini</h3>
                             <p class="card-text">
                                 Financial management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-dark">Read More</a>
+                            <a href="#" class="btn btn-secondary">Read More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 2 -->
                 <div class="col">
-                    <div class="card bg-dark text-light h-100">
+                    <div class="card bg-primary text-light h-100">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Accord</h3>
                             <p class="card-text">
                                 Labour management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-dark">Read More</a>
+                            <a href="#" class="btn btn-secondary">Read More</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 3 -->
                 <div class="col">
-                    <div class="card bg-dark text-light h-100">
+                    <div class="card bg-primary text-light h-100">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Duet</h3>
                             <p class="card-text">
                                 Marketable produce management for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-dark">Read More</a>
+                            <a href="#" class="btn btn-secondary">Read More</a>
                         </div>
                     </div>
                 </div>
