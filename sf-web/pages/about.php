@@ -34,6 +34,34 @@
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
 
+    <!-- Page Content -->
+    <section class="text-center p-5">
+        <!-- Our Mission -->
+        <div class="container">
+            <h2 class="mb-4">Our Mission</h2>
+            <p>
+                At Software Farm, our mission is to develop and maintain reliable, quality software products that meet the needs of our dealers and clients. With years of 
+                experience, we remain committed to delivering dependable service and support, building lasting relationships based on trust, integrity, and consistent value.
+            </p>
+        </div>
+        <!-- Our History -->
+        <div class="container mt-5">
+            <h2 class="mb-4">Our History</h2>
+            <p>
+                Software Farm was founded in 1997, following the algamation of Properdata, established in 1981, and Tarragon Computing's agricultural software in 1996. This integration
+                laid the foundation for the development of our reliable Windows-based software products.
+            </p>
+            <p>
+                Over the years, we've focused on enhancing our products by combining the strengths and features of similar software products. For instance, SimFini was developed by
+                integrating the functionality of Finvloei and AgriFin.
+            </p>
+            <p>
+                Our offices are located in Pretoria, where we oversee all business operations. The software products are marketed through a network of dealers spread across various 
+                provinces in South Africa. Some of our larger dealers also offer bureau services to their clients using Software Farm products.
+            </p>
+        </div>
+    </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     

@@ -35,21 +35,26 @@
     <?php include("includes/navbar.php"); ?>
     
     <!-- Banner -->
-    <section class="bg-dark text-light p-5 text-center">
-        <div class="container">
-            <div>
+    <section class="bg-dark text-light p-0 text-center position-relative">
+        <div class="container-fluid px-0"> <!-- Full width container without padding -->
+            <div class="position-relative">
+                <!-- Overlay to darken the image -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div> <!-- Dark overlay with opacity -->
+                <img src="/assets/images/bannerbg.jpg" class="img-fluid w-100 d-block" alt="Banner Image" style="max-height: 400px; object-fit: cover;">
+            </div>
+            <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
                 <h1>Welcome to Software Farm</h1>
-                <p>
-                    Sophisticated farm management software
+                <p class="lead">
+                    Software for Agricultural Management
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- Showcase -->
+    <!-- Product Showcase -->
     <section class="text-center p-5">
         <div class="container">
-            <h2 class="mb-4">Our software products</h2> <!-- Added margin-bottom -->
+            <h2 class="mb-4">Our Software Products</h2> <!-- Added margin-bottom -->
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- Card 1 -->
                 <div class="col">
@@ -59,7 +64,7 @@
                             <p class="card-text">
                                 Financial management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-secondary">Read More</a>
+                            <a href="/pages/SimFini.php" class="btn btn-secondary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -91,10 +96,15 @@
         </div>
     </section>
 
-
+    <!-- Dealer Showcase -->
+    <Section class="text-center p-5">
+        <div class="container">
+            <h2 class="mb-4">Our Dealers</h2>
+        </div>
+    </Section>
 
     <!-- Include Footer -->
-     <?php include("includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
     
     <!-- Bootstrap Core Javascript -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>

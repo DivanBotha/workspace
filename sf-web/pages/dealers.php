@@ -34,6 +34,11 @@
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
 
+    <!-- Dealer Intro -->
+    <section class="text-center p-5">
+        <h2>How it works</h2>
+    </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     

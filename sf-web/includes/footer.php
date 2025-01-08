@@ -1,5 +1,5 @@
-<footer class="bg-primary text-light py-4">
-    <div class="container">
+<footer class="bg-primary text-light py-4 mt-5">
+    <div class="container mt-3">
         <div class="row">
             <!-- Company Information -->
             <div class="col-md-4 mb-3">

@@ -34,63 +34,6 @@
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
 
-    <!-- Notification Section -->
-    <Section>
-        <div class="container mt-5">
-            <h1>Download List</h1>
-        </div>
-    </Section>
-
-    <!-- SimFini -->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>SimFini</h3>
-                </div>
-            </div>
-    </section>
-
-    <!-- SimJunior -->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>SimJunior</h3>
-                </div>
-            </div>
-    </section>
-
-    <!-- Point of Sale -->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Point of Sale</h3>
-                </div>
-            </div>
-    </section>
-
-    <!-- Accord -->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Accord</h3>
-                </div>
-            </div>
-    </section>
-
-    <!-- Duet -->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Duet</h3>
-                </div>
-            </div>
-    </section>
-    
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     

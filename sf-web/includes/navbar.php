@@ -10,25 +10,28 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="../index.php">Home</a>
+          <a class="nav-link" href="/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/about.php">About Us</a>
+          <a class="nav-link" href="/pages/about.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/products.php">Products</a>
+          <a class="nav-link" href="/pages/products.php">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/dealers.php">Dealers</a>
+          <a class="nav-link" href="/pages/dealers.php">Dealers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/downloads.php">Downloads</a>
+          <a class="nav-link" href="/pages/downloads.php">Downloads</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/training.php">Training</a>
+          <a class="nav-link" href="/pages/training.php">Training</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/contact.php">Contact Us</a>
+          <a class="nav-link" href="/pages/FAQs.php">FAQ's</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/contact.php">Contact Us</a>
         </li>
       </ul>
     </div>
