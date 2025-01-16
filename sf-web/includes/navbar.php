@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="/index.php">
       <img class="logo" src="../assets/images/sflogo.png" style="max-height: 40px;">
       Software Farm
     </a>
@@ -22,10 +22,10 @@
           <a class="nav-link" href="/pages/dealers.php">Dealers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/downloads.php">Downloads</a>
+          <a class="nav-link" href="/pages/training.php">Training</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/training.php">Training</a>
+          <a class="nav-link" href="/pages/downloads.php">Downloads</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/pages/FAQs.php">FAQ's</a>

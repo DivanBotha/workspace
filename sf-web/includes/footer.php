@@ -5,7 +5,7 @@
             <div class="col-md-4 mb-3">
                 <h5>About Software Farm</h5>
                 <p>
-                    Software Farm (Pty) Ltd specializes in providing cutting-edge financial management software for farmers, helping them streamline operations and maximize productivity.
+                    Software Farm (Pty) Ltd specializes in providing reliable software solutions for farmers and agricultural businesses, helping them streamline operations and maximize productivity.
                 </p>
             </div>
 
@@ -13,10 +13,10 @@
             <div class="col-md-4 mb-3">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="index.php" class="text-light text-decoration-none">Home</a></li>
-                    <li><a href="about.php" class="text-light text-decoration-none">About Us</a></li>
-                    <li><a href="products.php" class="text-light text-decoration-none">Products</a></li>
-                    <li><a href="training.php" class="text-light text-decoration-none">Training</a></li>
+                    <li><a href="/index.php" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="/pages/products.php" class="text-light text-decoration-none">Products</a></li>
+                    <li><a href="/pages/downloads.php" class="text-light text-decoration-none">Downloads</a></li>
+                    <li><a href="/pages/training.php" class="text-light text-decoration-none">Training</a></li>
                 </ul>
             </div>
 

@@ -51,6 +51,16 @@
         </div>
     </section>
 
+    <!-- Software Farm Showcase -->
+    <section class="text-center p-5">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Since 1997, Software Farm has been committed to developing reliable software solutions for farmers and agricultural businesses, distributed through
+                our network of trusted dealers.
+            </p>
+        </div>
+    </section>
+
     <!-- Product Showcase -->
     <section class="text-center p-5">
         <div class="container">
@@ -64,7 +74,7 @@
                             <p class="card-text">
                                 Financial management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="/pages/SimFini.php" class="btn btn-secondary">Read More</a>
+                            <a href="/pages/SimFini.php" class="btn btn-secondary">Find out more</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +86,7 @@
                             <p class="card-text">
                                 Labour management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-secondary">Read More</a>
+                            <a href="#" class="btn btn-secondary">Find out more</a>
                         </div>
                     </div>
                 </div>
@@ -86,12 +96,15 @@
                         <div class="card-body">
                             <h3 class="card-title mb-3">Duet</h3>
                             <p class="card-text">
-                                Marketable produce management for the present-day farmer or agricultural business.
+                                Marketable produce management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-secondary">Read More</a>
+                            <a href="#" class="btn btn-secondary">Find out more</a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="mt-4">
+                <a href="/pages/products.php" class="btn btn-primary">View all products</a>
             </div>
         </div>
     </section>

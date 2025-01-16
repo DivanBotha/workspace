@@ -119,6 +119,23 @@
         </div>
     </section>
 
+    <!-- Other -->
+    <section>
+        <div class="container mt-5">
+            <h2>Other</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>RainStat</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Hand</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     

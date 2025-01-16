@@ -34,6 +34,10 @@
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
 
+    <section class="text-center p-5">
+        <h2>SimFini</h2>
+    </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     
