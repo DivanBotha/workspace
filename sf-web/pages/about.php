@@ -40,8 +40,20 @@
         <div class="container">
             <h2 class="mb-4">Our Mission</h2>
             <p>
-                At Software Farm, our mission is to develop and maintain reliable, quality software products that meet the needs of our dealers and clients. With years of 
-                experience, we remain committed to delivering dependable service and support, building lasting relationships based on trust, integrity, and consistent value.
+            At Software Farm, our mission is to provide practical, reliable software solutions that meet the needs of our clients and help them streamline their operations. With 
+            a focus on simplicity and ease of use, we aim to create products that deliver real value, helping businesses improve efficiency without the complexity of larger, more 
+            expensive systems.
+            </p>
+            <p>
+            As we move forward, we are committed to improving the quality and accessibility of our software, working hard to adapt to changing market demands. Our network of dealers 
+            plays a crucial role in distributing our software across various provinces, ensuring that our products remain accessible to those who need them most.
+            </p>
+            <p>
+            We are focused on revitalizing our business by enhancing our online presence, improving sales, and ultimately upgrading our software to meet the needs of a more 
+            dynamic, digital world. Our goal is to ensure that our clients continue to receive dependable solutions while we transition to more modern platforms.
+            </p>
+            <p>
+            At Software Farm, we believe in delivering products that are not only reliable but also relevant—helping our clients thrive even in an evolving technological landscape.
             </p>
         </div>
         <!-- Our History -->
