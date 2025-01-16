@@ -1,3 +1,8 @@
+<?php
+// Current file name without query string
+$current_page = basename($_SERVER['PHP_SELF']);
+?>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="/index.php">
@@ -15,8 +20,44 @@
         <li class="nav-item">
           <a class="nav-link" href="/pages/about.php">About Us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/products.php">Products</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end p-3" aria-labelledby="productsDropdown">
+            <div class="d-lg-flex flex-lg-row flex-column" style="width: 900px;">
+              <!-- Column 1 -->
+              <div class="col-lg-4">
+                <h6 class="dropdown-header text-primary">Financial Management</h6>
+                <li><a class="dropdown-item" href="/pages/products/simfini.php">SimFini</a></li>
+                <li><a class="dropdown-item" href="/pages/products/simjunior.php">SimJunior</a></li>
+                <li><a class="dropdown-item" href="/pages/products/pointofsale.php">Point of Sale</a></li>
+                <div class="pt-3"></div>
+                <h6 class="dropdown-header text-primary">Employee Management</h6>
+                <li><a class="dropdown-item" href="/pages/products/accord.php">Accord</a></li>
+              </div>
+              <!-- Column 2 -->
+              <div class="col-lg-4">
+                <h6 class="dropdown-header text-primary">Livestock Management</h6>
+                <li><a class="dropdown-item" href="/pages/products/agrimilk.php">AgriMilk</a></li>
+                <li><a class="dropdown-item" href="/pages/products/agribeef.php">AgriBeef</a></li>
+                <li><a class="dropdown-item" href="/pages/products/feedlot.php">Feedlot</a></li>
+                <div class="pt-3"></div>
+                <h6 class="dropdown-header text-primary">Vehicle Management</h6>
+                <li><a class="dropdown-item" href="/pages/products/vehiclecost.php">Vehicle Cost</a></li>
+              </div>
+              <!-- Column 3 -->
+              <div class="col-lg-4">
+                <h6 class="dropdown-header text-primary">Crops and Marketable Produce</h6>
+                <li><a class="dropdown-item" href="/pages/products/duet.php">Duet</a></li>
+                <li><a class="dropdown-item" href="/pages/products/saaiplan.php">Saaiplan</a></li>
+                <div class="pt-3"></div>
+                <h6 class="dropdown-header text-primary">Other Software</h6>
+                <li><a class="dropdown-item" href="/pages/products/rainstat.php">RainStat</a></li>
+                <li><a class="dropdown-item" href="/pages/products/hand.php">Hand</a></li>
+              </div>
+            </div>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/pages/dealers.php">Dealers</a>
@@ -25,8 +66,7 @@
           <a class="nav-link" href="/pages/training.php">Training</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/downloads.php">Downloads</a>
-        </li>
+          <a class="nav-link" href="/pages/downloads.php">Downloads</a></li>
         <li class="nav-item">
           <a class="nav-link" href="/pages/FAQs.php">FAQ's</a>
         </li>
