@@ -120,6 +120,7 @@
     <section class="text-center p-5">
         <div class="container">
             <h2 class="mb-4">Our Dealers</h2>
+            <p>We have a network of independant dealers and agricultural bureau&apos;s across various provinces in South Africa.</p>
             <div id="dealerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
                 <div class="carousel-inner">
                     <?php 
