@@ -51,12 +51,15 @@
         </div>
     </section>
 
-    <!-- Software Farm Showcase -->
+    <!-- Company Showcase -->
     <section class="text-center p-5">
         <div class="container">
-            <h2>About Us</h2>
-            <p>Since 1997, Software Farm has been committed to developing reliable software solutions for farmers and agricultural businesses, distributed through
-                our network of trusted dealers.
+            <h2 class="mb-4">About Us</h2>
+            <p>At Software Farm, established in 1997 through the integration of Properdata and Tarragon Computing &apos;s agricultural software, we have built a legacy of providing 
+               practical, reliable solutions tailored to the agricultural sector. Our operations are managed from Pretoria, with our software distributed through a trusted network of 
+               dealers across South Africa to ensure accessibility and support for our clients. Guided by our mission to deliver user-friendly tools that simplify operations and 
+               improve efficiency, we remain committed to enhancing our products to meet the needs of a dynamic, evolving market. Our vision is to empower agricultural businesses 
+               with dependable software that supports their success and sustainability.
             </p>
         </div>
     </section>
@@ -65,6 +68,7 @@
     <section class="text-center p-5">
         <div class="container">
             <h2 class="mb-4">Our Software Products</h2> <!-- Added margin-bottom -->
+            <p class="mb-4">Software farm boasts a range of 12 software products to help you manage different aspects of your agricultural business.</p>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- Card 1 -->
                 <div class="col">
@@ -74,7 +78,7 @@
                             <p class="card-text">
                                 Financial management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="/pages/SimFini.php" class="btn btn-secondary">Find out more</a>
+                            <a href="/pages/simfini.php" class="btn btn-secondary">Find out more</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +90,7 @@
                             <p class="card-text">
                                 Labour management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-secondary">Find out more</a>
+                            <a href="/pages/accord.php" class="btn btn-secondary">Find out more</a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +102,7 @@
                             <p class="card-text">
                                 Marketable produce management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="#" class="btn btn-secondary">Find out more</a>
+                            <a href="pages/duet.php" class="btn btn-secondary">Find out more</a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 :root {
-    --color-primary: #00395E;  /* Primary color */
-    --color-secondary: #809a4d;  /* Secondary color */
-    --color-tertiary: #3C6C8C;  /* Tertiary color */
+    --color-primary: #292929;  /* Primary color */
+    --color-secondary: #8B9A46;  /* Secondary color */
+    --color-tertiary: #541212;  /* Tertiary color */
 }
 
 .bg-primary {
