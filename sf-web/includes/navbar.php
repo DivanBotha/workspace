@@ -29,7 +29,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
               <!-- Column 1 -->
               <div class="col-lg-4">
                 <h6 class="dropdown-header text-primary">Financial Management</h6>
-                <li><a class="dropdown-item" href="../pages/simfini.php">SimFini</a></li>
+                <li><a class="dropdown-item" href="../pages/simfini.php" data-bs-toggle="tooltip" title="SimFini: Financial management software for your business.">SimFini</a></li>
                 <li><a class="dropdown-item" href="../pages/simjunior.php">SimJunior</a></li>
                 <li><a class="dropdown-item" href="../pages/pointofsale.php">Point of Sale</a></li>
                 <div class="pt-3"></div>

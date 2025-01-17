@@ -36,6 +36,23 @@
 
     <!-- Page Content -->
     <section class="text-center p-5">
+
+        <!-- Our History -->
+        <div class="container mt-5">
+            <h2 class="mb-4">Our History</h2>
+            <p>
+                Software Farm was founded in 1997, following the algamation of Properdata, established in 1981, and Tarragon Computing's agricultural software in 1996. This integration
+                laid the foundation for the development of our reliable Windows-based software products.
+            </p>
+            <p>
+                Over the years, we've focused on enhancing our products by combining the strengths and features of similar software products. For instance, SimFini was developed by
+                integrating the functionality of Finvloei and AgriFin.
+            </p>
+            <p>
+                Our offices are located in Pretoria, where we oversee all business operations. The software products are marketed through a network of dealers spread across various 
+                provinces in South Africa. Some of our larger dealers also offer bureau services to their clients using Software Farm products.
+            </p>
+        </div>
         <!-- Our Mission -->
         <div class="container">
             <h2 class="mb-4">Our Mission</h2>
@@ -56,20 +73,19 @@
             At Software Farm, we believe in delivering products that are not only reliable but also relevant—helping our clients thrive even in an evolving technological landscape.
             </p>
         </div>
-        <!-- Our History -->
-        <div class="container mt-5">
-            <h2 class="mb-4">Our History</h2>
+        <!-- Our Vision -->
+        <div class="container">
+            <h2 class="mb-4">Our Vision</h2>
             <p>
-                Software Farm was founded in 1997, following the algamation of Properdata, established in 1981, and Tarragon Computing's agricultural software in 1996. This integration
-                laid the foundation for the development of our reliable Windows-based software products.
+            At Software Farm, we envision a future where agricultural businesses can rely on practical, dependable software solutions to streamline their operations and enhance 
+            productivity. Our focus is on providing tools that are effective, user-friendly, and tailored to the unique needs of the agricultural sector.
             </p>
             <p>
-                Over the years, we've focused on enhancing our products by combining the strengths and features of similar software products. For instance, SimFini was developed by
-                integrating the functionality of Finvloei and AgriFin.
+            As we move forward, we remain committed to improving and adapting our products to meet changing market demands while maintaining the simplicity and reliability our
+            clients trust. By continuing to deliver accessible and valuable solutions, we aim to support the success and sustainability of every business we serve
             </p>
             <p>
-                Our offices are located in Pretoria, where we oversee all business operations. The software products are marketed through a network of dealers spread across various 
-                provinces in South Africa. Some of our larger dealers also offer bureau services to their clients using Software Farm products.
+            At Software Farm, our vision is to be a trusted partner for agricultural enterprises, helping them thrive in an ever-evolving world.
             </p>
         </div>
     </section>
