@@ -34,10 +34,8 @@
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
 
-    <!-- Page Content -->
+    <!-- Our History -->
     <section class="text-center p-5">
-
-        <!-- Our History -->
         <div class="container mt-5">
             <h2 class="mb-4">Our History</h2>
             <p>
@@ -53,7 +51,10 @@
                 provinces in South Africa. Some of our larger dealers also offer bureau services to their clients using Software Farm products.
             </p>
         </div>
-        <!-- Our Mission -->
+    </section>
+
+    <!-- Our Mission -->
+    <section class="text-center p-5">
         <div class="container">
             <h2 class="mb-4">Our Mission</h2>
             <p>
@@ -73,7 +74,10 @@
             At Software Farm, we believe in delivering products that are not only reliable but also relevant—helping our clients thrive even in an evolving technological landscape.
             </p>
         </div>
-        <!-- Our Vision -->
+    </section>
+    
+    <!-- Our Vision -->
+     <section class="text-center p-5">
         <div class="container">
             <h2 class="mb-4">Our Vision</h2>
             <p>
@@ -88,7 +92,7 @@
             At Software Farm, our vision is to be a trusted partner for agricultural enterprises, helping them thrive in an ever-evolving world.
             </p>
         </div>
-    </section>
+     </section>
 
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>

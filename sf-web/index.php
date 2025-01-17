@@ -73,6 +73,7 @@
                 <!-- Card 1 -->
                 <div class="col">
                     <div class="card bg-primary text-light h-100">
+                        <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="SimFini Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">SimFini</h3>
                             <p class="card-text">
@@ -85,6 +86,7 @@
                 <!-- Card 2 -->
                 <div class="col">
                     <div class="card bg-primary text-light h-100">
+                        <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Accord Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Accord</h3>
                             <p class="card-text">
@@ -97,6 +99,7 @@
                 <!-- Card 3 -->
                 <div class="col">
                     <div class="card bg-primary text-light h-100">
+                        <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Duet Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Duet</h3>
                             <p class="card-text">
@@ -114,11 +117,47 @@
     </section>
 
     <!-- Dealer Showcase -->
-    <Section class="text-center p-5">
+    <section class="text-center p-5">
         <div class="container">
             <h2 class="mb-4">Our Dealers</h2>
+            <div id="dealerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner">
+                    <?php 
+                    // Example dealer logos array (using the placeholder)
+                    $dealer_logos = [
+                        'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg',
+                        'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg',
+                        'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg'
+                    ];
+
+                    // Example dealer names array
+                    $dealer_names = [
+                        'VKB Landbou Edms Bpk', 'NWK Bpk', 'Overberg Agri Edms Bpk', 'Senwes Pty Ltd', 'Data Farm', 
+                        'A van der Westhuizen', 'SteynCo Contracting Services', 'Johan Kapp', 'Malan Finansiele Dienste', 'PCM van Dyk'
+                    ];
+
+                    // Loop to create carousel items
+                    for ($i = 0; $i < 10; $i += 5): ?>
+                        <div class="carousel-item <?php echo $i == 0 ? 'active' : ''; ?>">
+                            <div class="row justify-content-center">
+                                <?php for ($j = 0; $j < 5 && $i + $j < 10; $j++): ?>
+                                    <div class="col-2 d-flex flex-column align-items-center">
+                                        <img src="assets/images/<?php echo $dealer_logos[$i + $j]; ?>" class="d-block w-100 mx-auto" alt="<?php echo $dealer_names[$i + $j]; ?>">
+                                        <p class="mt-2"><?php echo $dealer_names[$i + $j]; ?></p>
+                                    </div>
+                                <?php endfor; ?>
+                            </div>
+                        </div>
+                    <?php endfor; ?>
+                </div>
+            </div>
+
+            <!-- View all dealers button -->
+            <div class="mt-4">
+                <a href="/pages/dealers.php" class="btn btn-primary">View All Dealers</a>
+            </div>
         </div>
-    </Section>
+    </section>
 
     <!-- Include Footer -->
     <?php include("includes/footer.php"); ?>
