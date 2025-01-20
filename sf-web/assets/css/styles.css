@@ -24,7 +24,7 @@
 }
 
 .btn-primary:hover {
-    background-color: #002d4a !important;  /* Darker shade on hover */
+    background-color: #808080 !important;  /* Darker shade on hover */
 }
 
 .btn-secondary {
@@ -34,7 +34,7 @@
 }
 
 .btn-secondary:hover {
-    background-color: #6f7e3b !important;  /* Darker shade on hover */
+    background-color: #808080 !important;  /* Darker shade on hover */
 }
 
 .btn-tertiary {
@@ -44,7 +44,7 @@
 }
 
 .btn-tertiary:hover {
-    background-color: #2e5166 !important;  /* Darker shade on hover */
+    background-color: #808080 !important;  /* Darker shade on hover */
 }
 
 /* Apply Roboto font globally */

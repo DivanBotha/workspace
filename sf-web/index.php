@@ -54,7 +54,7 @@
     <!-- Company Showcase -->
     <section class="text-center p-5">
         <div class="container narrow-container">
-            <h2 class="mb-4">About Us</h2>
+            <h2 class="mb-4">Over 30 years of experience!</h2>
             <p>At Software Farm, established in 1997 through the integration of Properdata and Tarragon Computing &apos;s agricultural software, we have built a legacy of providing 
                practical, reliable solutions tailored to the agricultural sector. Our operations are managed from Pretoria, with our software distributed through a trusted network of 
                dealers across South Africa to ensure accessibility and support for our clients. Guided by our mission to deliver user-friendly tools that simplify operations and 
