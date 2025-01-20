@@ -59,7 +59,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <li><a class="dropdown-item" href="../pages/hand.php">Hand</a></li>
                 <div class="dropdown-divider"></div>
                  <!-- View all products row -->
-                <li><a class="dropdown-item text-primary fw-bold" href="/pages/products.php">View All Products</a></li>
+                <li><a class="dropdown-header text-primary fw-bold" href="/pages/products.php">View All Products</a></li>
               </div>
             </div>
           </ul>

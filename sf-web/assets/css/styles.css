@@ -71,3 +71,7 @@ p {
     max-width: 940px;
     margin: 0 auto;
 }
+
+.dropdown-header.text-primary {
+    color: #8B9A46 !important;
+}
