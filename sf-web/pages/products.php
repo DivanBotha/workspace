@@ -36,8 +36,8 @@
 
     <!-- Financial Management Section -->
     <section>
-        <div class="container mt-5 pb-5">
-            <h2 class="text-center p-5">Financial Management</h2> <!-- Centering the header -->
+        <div class="container narrow-container mt-5 pb-5">
+            <h2 class="text-center p-5">Financial Management</h2>
 
             <!-- SimFini Product -->
             <div class="row align-items-center mb-5">
@@ -96,8 +96,8 @@
     </section>
 
     <!-- Employee Management Section -->
-    <section>
-        <div class="container mt-5 pb-5">
+    <section class="bg-secondary">
+        <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Employee Management</h2>
 
             <!-- Accord Product -->
@@ -122,7 +122,7 @@
 
     <!-- Livestock Management Section -->
     <section>
-        <div class="container mt-5 pb-5">
+        <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Livestock Management</h2>
 
             <!-- AgriMilk Product -->
@@ -145,7 +145,7 @@
 
             <!-- AgriBeef Product -->
             <div class="row align-items-center mb-5">
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-2">
                     <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="AgriBeef"> <!-- Image on the left -->
                 </div>
                 <div class="col-md-6">
@@ -182,8 +182,8 @@
     </section>
 
     <!-- Crops and Marketable Produce Section -->
-    <section>
-        <div class="container mt-5 pb-5">
+    <section class="bg-secondary">
+        <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Crops and Marketable Produce</h2>
 
             <!-- Saaiplan Product -->
@@ -206,7 +206,7 @@
 
             <!-- Duet Product -->
             <div class="row align-items-center mb-5">
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-2">
                     <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="Duet"> <!-- Image on the left -->
                 </div>
                 <div class="col-md-6">
@@ -226,7 +226,7 @@
 
     <!-- Vehicle Management Section -->
     <section>
-        <div class="container mt-5 pb-5">
+        <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Vehicle Management</h2>
 
             <!-- Vehicle Cost Product -->
@@ -250,8 +250,8 @@
     </section>
 
     <!-- Other Section -->
-    <section>
-        <div class="container mt-5 pb-5">
+    <section class="bg-secondary">
+        <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Other</h2>
 
             <!-- RainStat Product -->
@@ -274,7 +274,7 @@
 
             <!-- Hand Product -->
             <div class="row align-items-center mb-5">
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-2">
                     <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="Hand"> <!-- Image on the left -->
                 </div>
                 <div class="col-md-6">

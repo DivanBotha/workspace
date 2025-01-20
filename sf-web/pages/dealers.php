@@ -36,7 +36,7 @@
 
 
     <!-- Dealer Intro -->
-    <section class="text-center p-5">
+    <section class="bg-secondary text-light text-center p-5">
         <div class="container">
             <h2 class="mb-5">Our network of Dealers</h2>
             <p>

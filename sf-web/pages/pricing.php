@@ -35,8 +35,8 @@
     <?php include("../includes/navbar.php"); ?>
 
     <!-- How pricing works -->
-    <section>
-        <h2  class="text-center m-5">How it works</h2>
+    <section class="bg-secondary text-light p-5">
+        <h2  class="text-center">How it works</h2>
         <div class="container narrow-container">
             <div class="mb-5">
                 <h3>The standard license for any of our Software Products:</h3>
@@ -47,7 +47,7 @@
                     <li>One annual license fee, multiple products.</li>
                 </ul>
             </div>
-            <div class="container text-center bg-secondary text-light p-5">
+            <div class="container text-center bg-primary text-light p-5">
                 <div class="row">
                     <div class="col">
                         <h2>1</h2>

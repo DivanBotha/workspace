@@ -54,7 +54,7 @@
     </section>
 
     <!-- Our Mission -->
-    <section class="text-center p-5">
+    <section class="text-center p-5 bg-secondary text-light">
         <div class="container narrow-container">
             <h2 class="mb-4">Our Mission</h2>
             <p>

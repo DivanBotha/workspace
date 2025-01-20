@@ -29,9 +29,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
               <!-- Column 1 -->
               <div class="col-lg-4">
                 <h6 class="dropdown-header text-primary">Financial Management</h6>
-                <li><a class="dropdown-item" href="../pages/simfini.php" data-bs-toggle="tooltip" title="SimFini: Financial management software for your business.">SimFini</a></li>
-                <li><a class="dropdown-item" href="../pages/simjunior.php">SimJunior</a></li>
-                <li><a class="dropdown-item" href="../pages/pointofsale.php">Point of Sale</a></li>
+                <li><a class="dropdown-item" href="../pages/simfini.php" data-bs-toggle="tooltip" title="SimFini: Financial management for medium to large businesses.">SimFini</a></li>
+                <li><a class="dropdown-item" href="../pages/simjunior.php" data-bs-toggle="tooltip" title="SimFini: Financial management for small to medium businesses.">SimJunior</a></li>
+                <li><a class="dropdown-item" href="../pages/pointofsale.php" data-bs-toggle="tooltip" title="SimFini: Financial management software for your business.">Point of Sale</a></li>
                 <div class="pt-3"></div>
                 <h6 class="dropdown-header text-primary">Employee Management</h6>
                 <li><a class="dropdown-item" href="../pages/accord.php">Accord</a></li>

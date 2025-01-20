@@ -1,4 +1,4 @@
-<footer class="bg-primary text-light py-4 mt-5">
+<footer class="bg-primary text-light py-5">
     <div class="container mt-3">
         <div class="row">
             <!-- Company Information -->

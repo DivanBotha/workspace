@@ -65,7 +65,7 @@
     </section>
 
     <!-- Product Showcase -->
-    <section class="text-center p-5">
+    <section class="text-center p-5 bg-secondary text-light">
         <div class="container">
             <h2 class="mb-4">Our Software Products</h2> <!-- Added margin-bottom -->
             <p class="mb-4">Software farm boasts a range of 12 software products to help you manage different aspects of your agricultural business.</p>
