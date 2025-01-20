@@ -66,3 +66,8 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 500; /* Medium weight for card titles */
 }
+
+.narrow-container {
+    max-width: 940px;
+    margin: 0 auto;
+}

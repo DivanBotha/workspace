@@ -36,7 +36,7 @@
 
     <!-- Our History -->
     <section class="text-center p-5">
-        <div class="container mt-5">
+        <div class="container narrow-container mt-5">
             <h2 class="mb-4">Our History</h2>
             <p>
                 Software Farm was founded in 1997, following the algamation of Properdata, established in 1981, and Tarragon Computing's agricultural software in 1996. This integration
@@ -55,7 +55,7 @@
 
     <!-- Our Mission -->
     <section class="text-center p-5">
-        <div class="container">
+        <div class="container narrow-container">
             <h2 class="mb-4">Our Mission</h2>
             <p>
             At Software Farm, our mission is to provide practical, reliable software solutions that meet the needs of our clients and help them streamline their operations. With 
@@ -78,7 +78,7 @@
     
     <!-- Our Vision -->
      <section class="text-center p-5">
-        <div class="container">
+        <div class="container narrow-container">
             <h2 class="mb-4">Our Vision</h2>
             <p>
             At Software Farm, we envision a future where agricultural businesses can rely on practical, dependable software solutions to streamline their operations and enhance 

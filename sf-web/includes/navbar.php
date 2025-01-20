@@ -21,7 +21,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
           <a class="nav-link" href="/pages/about.php">About Us</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="/pages/products.php" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Products
           </a>
           <ul class="dropdown-menu dropdown-menu-end p-3" aria-labelledby="productsDropdown">
@@ -35,6 +35,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="pt-3"></div>
                 <h6 class="dropdown-header text-primary">Employee Management</h6>
                 <li><a class="dropdown-item" href="../pages/accord.php">Accord</a></li>
+                <div class="dropdown-divider"></div>
               </div>
               <!-- Column 2 -->
               <div class="col-lg-4">
@@ -45,6 +46,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <div class="pt-3"></div>
                 <h6 class="dropdown-header text-primary">Vehicle Management</h6>
                 <li><a class="dropdown-item" href="../pages/vehiclecost.php">Vehicle Cost</a></li>
+                <div class="dropdown-divider"></div>
               </div>
               <!-- Column 3 -->
               <div class="col-lg-4">
@@ -55,6 +57,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <h6 class="dropdown-header text-primary">Other Software</h6>
                 <li><a class="dropdown-item" href="../pages/rainstat.php">RainStat</a></li>
                 <li><a class="dropdown-item" href="../pages/hand.php">Hand</a></li>
+                <div class="dropdown-divider"></div>
+                 <!-- View all products row -->
+                <li><a class="dropdown-item text-primary fw-bold" href="/pages/products.php">View All Products</a></li>
               </div>
             </div>
           </ul>
