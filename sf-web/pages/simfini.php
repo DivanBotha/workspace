@@ -35,7 +35,10 @@
     <?php include("../includes/navbar.php"); ?>
 
     <section class="text-center p-5">
-        <h2>SimFini</h2>
+        <div class="container mt-5">
+            <h2>SimFini</h2>
+            <p>Finacial management software for the present-day farmer or agricultural business.</p>
+        </div>
     </section>
 
     <!-- Include Footer -->

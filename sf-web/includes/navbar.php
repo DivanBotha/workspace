@@ -68,6 +68,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
           <a class="nav-link" href="/pages/dealers.php">Dealers</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/pages/pricing.php">Pricing</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/pages/training.php">Training</a>
         </li>
         <li class="nav-item">

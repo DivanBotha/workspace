@@ -36,7 +36,7 @@
 
     <!-- Financial Management Section -->
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <h2 class="text-center p-5">Financial Management</h2> <!-- Centering the header -->
 
             <!-- SimFini Product -->
@@ -97,7 +97,7 @@
 
     <!-- Employee Management Section -->
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <h2 class="text-center p-5">Employee Management</h2>
 
             <!-- Accord Product -->
@@ -122,7 +122,7 @@
 
     <!-- Livestock Management Section -->
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <h2 class="text-center p-5">Livestock Management</h2>
 
             <!-- AgriMilk Product -->
@@ -183,7 +183,7 @@
 
     <!-- Crops and Marketable Produce Section -->
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <h2 class="text-center p-5">Crops and Marketable Produce</h2>
 
             <!-- Saaiplan Product -->
@@ -226,7 +226,7 @@
 
     <!-- Vehicle Management Section -->
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <h2 class="text-center p-5">Vehicle Management</h2>
 
             <!-- Vehicle Cost Product -->
@@ -251,7 +251,7 @@
 
     <!-- Other Section -->
     <section>
-        <div class="container mt-5">
+        <div class="container mt-5 pb-5">
             <h2 class="text-center p-5">Other</h2>
 
             <!-- RainStat Product -->

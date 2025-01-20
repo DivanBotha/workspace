@@ -126,7 +126,7 @@
                     <?php 
                     // Example dealer logos array (using the placeholder)
                     $dealer_logos = [
-                        'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg',
+                        'vkblogo.jpg', 'nwklogo.jpg', 'imageplaceholder.jpg',
                         'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg',
                         'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg', 'imageplaceholder.jpg'
                     ];

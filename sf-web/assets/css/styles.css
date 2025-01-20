@@ -69,9 +69,18 @@ p {
 
 .narrow-container {
     max-width: 940px;
-    margin: 0 auto;
+    margin: 0 auto; /*narrow container for body copy */
 }
 
 .dropdown-header.text-primary {
     color: #8B9A46 !important;
+}
+
+table {
+    width: 100%;
+}
+
+.price {
+    color: #DC143C;
+    font-weight: bold;
 }
