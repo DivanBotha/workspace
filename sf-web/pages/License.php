@@ -35,7 +35,11 @@
     <?php include("../includes/navbar.php"); ?>
 
     <section class="text-center p-5">
-        <h2>Accord</h2>
+        <h2>Support</h2>
+        <h2>Training</h2>
+        <h2>Updates</h2>
+        <h2>License Agreement</h2>
+        <h2>Support</h2>
     </section>
 
     <!-- Include Footer -->

@@ -37,9 +37,12 @@
     <!-- How pricing works -->
     <section class="bg-secondary text-light p-5">
         <h2  class="text-center">How it works</h2>
-        <div class="container narrow-container">
+        <div class="container narrow-container mb-5">
             <div class="mb-5">
-                <h3 class="text-center mt-5">The annual license fee:</h3>
+                <h3 class="text-center mt-5">The annual license fee</h3>
+                <p class="text-center mt-3">The annual license fee covers the support and updates for our software products. You only pay one annual license fee, regardless of how many of our
+                    software products you use.
+                </p>
                 <div class="container text-center bg-primary text-light p-5">
                 <div class="row">
                     <div class="col">
@@ -51,14 +54,10 @@
                 </div>
             </div>
             </div>
-            <div class="mb-5">
-                <h3 class="text-center mt-5">The standard license:</h3>
-                <ul>
-                    <li>One annual license fee, multiple products.</li>
-                    <li>All our product are available on free 30-day trial version. Download and test the software to see if it will work for your business.</li>
-                    <li>You pay once-off for the purchase of the software product.</li>
-                    <li>One annual license fee, multiple products.</li>
-                </ul>
+            <div class="mb-4 text-center">
+                <h3 class="mt-5">The standard license</h3>
+                <p>The standard license for any of our software products is one(1) network point and two(2) data sets. Additional network points and data sets can be added for a
+                    once-off fee. </p>
             </div>
             <div class="container text-center bg-primary text-light p-5">
                 <div class="row">
@@ -89,7 +88,16 @@
     <section class="py-5">
         <div class="container narrow-container">
             <h2 class="text-center m-5">Price List</h2>
-            <p class="text-center mb-5">Prices do not include the annual license fee of R 4632.00. You only pay one annual license fee, no matter how many different software products you use.</p>
+            <div class="container mb-5">
+                <h4>Prices do not include the compulsory annual license fee of R 4632.00</h4>
+                <ul>
+                    <li>Prices are subject to change without prior notice.</li>
+                    <li>VAT is included and calculated at 15%.</li>
+                    <li>Prices do not include the dealer's traveling and installation cost.</li>
+                    <li>Prices do not include training.</li>
+                    <li>If you use more than one software product, the annual license fee remains R 4632.00.</li>
+                </ul>
+            </div>
             <table class="table table-striped">
                 <!-- Table Headers -->
                 <thead>
@@ -97,7 +105,7 @@
                         <th>Product</th>
                         <th>License</th>
                         <th>Once-off</th>
-                        <th>Add On</th>
+                        <th class="text-center">Add On</th>
                     </tr>
                 </thead>
                 <!-- Table Rows -->
@@ -109,7 +117,7 @@
                             1 Network Point<br>
                             2 Data Sets
                         </td>
-                        <td class="text-end">
+                        <td>
                             <span class="price">R 7367.00</span>
                         </td>
                         <td class="text-end">
@@ -126,7 +134,7 @@
                             1 Network Point<br>
                             2 Data Sets
                         </td>
-                        <td class="text-end">
+                        <td>
                             <span class="price">R 4632.00</span>
                         </td>
                         <td class="text-end">
@@ -141,10 +149,10 @@
                             1 Network Point<br>
                             2 Data Sets
                         </td>
-                        <td>
+                        <td >
                             <span class="price">R 2196.00</span><br>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 0.00</span><br>
                             Add a data set: <span class="price">R 0.00</span>
                         </td>
@@ -159,7 +167,7 @@
                         <td>
                             <span class="price">R 7355.00</span><br>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 735.50</span><br>
                             Add a data set: <span class="price">R 735.50</span>
                         </td>
@@ -174,7 +182,7 @@
                         <td>
                             <span class="price">R 7738.00</span><br>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 773.80</span><br>
                             Add a data set: <span class="price">R 773.80</span>
                         </td>
@@ -189,7 +197,7 @@
                         <td>
                             <span class="price">R 7393.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 739.30</span><br>
                             Add a data set: <span class="price">R 739.30</span>
                         </td>
@@ -204,7 +212,7 @@
                         <td>
                             <span class="price">R 5840.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 584.00</span><br>
                             Add a data set: <span class="price">R 584.00</span>
                         </td>
@@ -219,7 +227,7 @@
                         <td>
                             <span class="price">R 6390.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 639.00</span><br>
                             Add a data set: <span class="price">R 639.00</span>
                         </td>
@@ -234,7 +242,7 @@
                         <td>
                             <span class="price">R 6390.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 639.00</span><br>
                             Add a data set: <span class="price">R 639.00</span>
                         </td>
@@ -249,7 +257,7 @@
                         <td>
                             <span class="price">R 1665.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 166.50</span><br>
                             Add a data set: <span class="price">R 166.50</span>
                         </td>
@@ -264,7 +272,7 @@
                         <td>
                             <span class="price">R 2540.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 254.00</span><br>
                             Add a data set: <span class="price">R 254.00</span>
                         </td>
@@ -279,7 +287,7 @@
                         <td>
                             <span class="price">R 575.00</span>
                         </td>
-                        <td>
+                        <td class="text-end">
                             Add a network point: <span class="price">R 0.00</span><br>
                             Add a data set: <span class="price">R 0.00</span>
                         </td>
@@ -287,7 +295,7 @@
                 </tbody>
             </table>
         </div>
-    </section> 
+    </section>
 
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
