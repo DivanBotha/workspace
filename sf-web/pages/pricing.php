@@ -49,7 +49,7 @@
                 <div class="row text-center g-4">
                     <!-- Card 1 -->
                     <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100">
+                        <div class="card bg-primary text-light h-100 shadow">
                             <div class="card-body">
                                 <h4 class="card-title">One License Fee</h4>
                             </div>
@@ -57,7 +57,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100">
+                        <div class="card bg-primary text-light h-100 shadow">
                             <div class="card-body">
                                 <h4 class="card-title">Many Products</h4>
                             </div>
@@ -76,7 +76,7 @@
                 <div class="row text-center g-4">
                     <!-- Card 1 -->
                     <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100">
+                        <div class="card bg-primary text-light h-100 shadow">
                             <div class="card-body">
                                 <h4 class="card-title">1 Network Point</h4>
                             </div>
@@ -84,7 +84,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100">
+                        <div class="card bg-primary text-light h-100 shadow">
                             <div class="card-body">
                                 <h4 class="card-title">2 Data Sets</h4>
                             </div>

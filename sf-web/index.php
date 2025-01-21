@@ -70,9 +70,9 @@
             <h2 class="mb-4">Our Software Products</h2> <!-- Added margin-bottom -->
             <p class="mb-4">Software farm boasts a range of 12 software products to help you manage different aspects of your agricultural business.</p>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <!-- Card 1 -->
+                <!-- SimFini Card -->
                 <div class="col">
-                    <div class="card bg-primary text-light h-100">
+                    <div class="card bg-primary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="SimFini Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">SimFini</h3>
@@ -85,7 +85,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="col">
-                    <div class="card bg-primary text-light h-100">
+                    <div class="card bg-primary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Accord Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Accord</h3>
@@ -98,7 +98,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="col">
-                    <div class="card bg-primary text-light h-100">
+                    <div class="card bg-primary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Duet Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Duet</h3>

@@ -3,7 +3,7 @@
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-3 shadow">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="/index.php">
       <img class="logo" src="../assets/images/sflogo.png" style="max-height: 40px;">
