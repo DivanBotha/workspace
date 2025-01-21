@@ -28,11 +28,11 @@
 </head>
 
 <body>
-    <!-- Include Header -->
-    <?php include("includes/header.php"); ?>
-
     <!-- Include Navbar -->
     <?php include("includes/navbar.php"); ?>
+    
+    <!-- Include Header -->
+    <?php include("includes/header.php"); ?>
     
     <!-- Banner -->
     <section class="bg-dark text-light p-0 text-center position-relative">

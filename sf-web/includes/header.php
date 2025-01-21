@@ -1,5 +1,5 @@
 <!-- Header Section -->
-<section class="header header-expand-lg bg-body-tertiary">
+<section class="header header-expand-lg bg-body-tertiary fixed-top">
 
     <!-- Top Contact Information -->
     <div class="bg-primary py-2">

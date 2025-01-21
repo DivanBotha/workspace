@@ -84,3 +84,8 @@ table {
     color: #DC143C;
     font-weight: bold;
 }
+
+body {
+    padding-top: 100px; /* Adjust this value based on the combined height of your header and navbar */
+}
+

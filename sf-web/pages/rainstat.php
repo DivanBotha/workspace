@@ -28,11 +28,11 @@
 </head>
 
 <body>   
-    <!-- Include Header -->
-    <?php include("../includes/header.php"); ?>
-
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
+    
+    <!-- Include Header -->
+    <?php include("../includes/header.php"); ?>
 
     <section class="text-center p-5">
         <h2>RainStat</h2>

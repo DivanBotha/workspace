@@ -28,14 +28,14 @@
 </head>
 
 <body>   
+    <!-- Include Navbar -->
+    <?php include("../includes/navbar.php"); ?>
+    
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
-    <!-- Include Navbar -->
-    <?php include("../includes/navbar.php"); ?>
-
     <!-- Our History -->
-    <section class="text-center p-5">
+    <section class="text-center py-5">
         <div class="container narrow-container mt-5">
             <h2 class="mb-4">Our History</h2>
             <p>

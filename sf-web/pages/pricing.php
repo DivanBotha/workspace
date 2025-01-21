@@ -28,11 +28,11 @@
 </head>
 
 <body>   
-    <!-- Include Header -->
-    <?php include("../includes/header.php"); ?>
-
     <!-- Include Navbar -->
     <?php include("../includes/navbar.php"); ?>
+    
+    <!-- Include Header -->
+    <?php include("../includes/header.php"); ?>
 
     <!-- How pricing works -->
     <section class="bg-secondary text-light py-5">
