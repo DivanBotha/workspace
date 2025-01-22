@@ -89,3 +89,6 @@ body {
     padding-top: 100px; /* Adjust this value based on the combined height of your header and navbar */
 }
 
+.icon-secondary {
+    color: var(--color-secondary);
+}

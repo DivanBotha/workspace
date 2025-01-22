@@ -34,6 +34,36 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
+    <!-- Normal Training -->
+    <section class="py-5">
+    <div class="container d-flex align-items-center">
+            <!-- Left Side: Image -->
+            <div class="col-md-6 text-center">
+                <img src="../assets/images/training.jpg" alt="Training Session" class="img-fluid rounded">
+            </div>
+
+            <!-- Right Side: Text -->
+            <div class="col-md-6">
+                <h2>Book Your Training Session</h2>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i> Personalized training sessions</li>
+                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i> Tailored to your needs</li>
+                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i> Expert trainers available</li>
+                </ul>
+                <a href="../assets/forms/training-booking-form.pdf" download class="btn btn-primary mt-3">
+                    <i class="bi bi-download me-2"></i>Download Booking Form
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Events -->
+    <section class="text-center py-5">
+        <div class="container narrow-container">
+            <h2>Training Events</h2>
+        </div>
+     </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     

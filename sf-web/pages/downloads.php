@@ -69,132 +69,132 @@
                     <tr class="align-middle">
                         <td>SimFini</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $simfini->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $simfini->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $simfini->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $simfini->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $simfini->fullname; ?>"><?php echo $simfini->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $simfini->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $simfini->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- SimJunior -->
                     <tr class="align-middle">
                         <td>SimJunior</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $simjunior->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $simjunior->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $simjunior->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $simjunior->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $simjunior->fullname; ?>"><?php echo $simjunior->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $simjunior->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $simjunior->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Point of Sale -->
                     <tr class="align-middle">
                         <td>Point of Sale</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $pos->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $pos->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $pos->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $pos->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $pos->fullname; ?>"><?php echo $pos->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $pos->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $pos->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Accord -->
                     <tr class="align-middle">
                         <td>Accord</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $accord->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $accord->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $accord->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $accord->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $accord->fullname; ?>"><?php echo $accord->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $accord->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $accord->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Duet -->
                     <tr class="align-middle">
                         <td>Duet</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $duet->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $duet->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $duet->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $duet->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $duet->fullname; ?>"><?php echo $duet->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $duet->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $duet->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Saaiplan -->
                     <tr class="align-middle">
                         <td>Saaiplan</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $saaiplan->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $saaiplan->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $saaiplan->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $saaiplan->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $saaiplan->fullname; ?>"><?php echo $saaiplan->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $saaiplan->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $saaiplan->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- AgriMilk -->
                     <tr class="align-middle">
                         <td>AgriMilk</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $agrimilk->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $agrimilk->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $agrimilk->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $agrimilk->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $agrimilk->fullname; ?>"><?php echo $agrimilk->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $agrimilk->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $agrimilk->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- AgriBeef -->
                     <tr class="align-middle">
                         <td>AgriBeef</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $agribeef->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $agribeef->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $agribeef->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $agribeef->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $agribeef->fullname; ?>"><?php echo $agribeef->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $agribeef->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $agribeef->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Feedlot -->
                     <tr class="align-middle">
                         <td>Feedlot</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $feedlot->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $feedlot->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $feedlot->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $feedlot->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $feedlot->fullname; ?>"><?php echo $feedlot->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $feedlot->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $feedlot->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Vehicle Cost -->
                     <tr class="align-middle">
                         <td>Vehicle Cost</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $vehicle->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $vehicle->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $vehicle->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $vehicle->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $vehicle->fullname; ?>"><?php echo $vehicle->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $vehicle->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $vehicle->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- RainStat -->
                     <tr class="align-middle">
                         <td>RainStat</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $rainstat->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $rainstat->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $rainstat->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $rainstat->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $rainstat->fullname; ?>"><?php echo $rainstat->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $rainstat->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $rainstat->program; ?></span></a>
                         </td>
                     </tr>
                     <!-- Hand -->
                     <tr class="align-middle">
                         <td>Hand</td>
                         <td>
-                            <h6>Version <span class="price"><?php echo $hand->version; ?></span></h6>
-                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $hand->releasedate); ?></span></h6>
+                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $hand->version; ?></span></h6>
+                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $hand->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $hand->fullname; ?>"><?php echo $hand->program; ?></a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $hand->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $hand->program; ?></span></a>
                         </td>
                     </tr>
                 </tbody>

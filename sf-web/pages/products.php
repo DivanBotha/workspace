@@ -47,12 +47,12 @@
                 <div class="col-md-6">
                     <h3>SimFini</h3>
                     <p>SimFini is a comprehensive farm management software that helps farmers efficiently manage their financials, track expenses, and optimize profits.</p>
-                    <ul>
-                        <li>Manage financial transactions</li>
-                        <li>Track income and expenses</li>
-                        <li>Generate detailed reports</li>
-                        <li>Integrate with banking systems</li>
-                        <li>Multi-user access for team collaboration</li>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Manage financial transactions</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track income and expenses</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate detailed reports</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Integrate with banking systems</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Multi-user access for team collaboration</li>
                     </ul>
                 </div>
             </div>
@@ -65,12 +65,12 @@
                 <div class="col-md-6">
                     <h3>SimJunior</h3>
                     <p>SimJunior is a simplified version of SimFini, designed specifically for smaller farms or farmers new to digital financial management.</p>
-                    <ul>
-                        <li>Simple and intuitive interface</li>
-                        <li>Track income and expenses</li>
-                        <li>Generate basic reports</li>
-                        <li>Ideal for small to medium farms</li>
-                        <li>Easy setup and user-friendly</li>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Simple and intuitive interface</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track income and expenses</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate basic reports</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Ideal for small to medium farms</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Easy setup and user-friendly</li>
                     </ul>
                 </div>
             </div>
@@ -83,12 +83,12 @@
                 <div class="col-md-6">
                     <h3>Point of Sale</h3>
                     <p>Point of Sale (POS) is a seamless solution for farm-based transactions, enabling efficient sales management, invoicing, and inventory tracking.</p>
-                    <ul>
-                        <li>Real-time inventory tracking</li>
-                        <li>Fast and secure transactions</li>
-                        <li>Generate invoices and receipts</li>
-                        <li>Integrates with financial software</li>
-                        <li>Supports multiple payment methods</li>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Real-time inventory tracking</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Fast and secure transactions</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate invoices and receipts</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Integrates with financial software</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Supports multiple payment methods</li>
                     </ul>
                 </div>
             </div>

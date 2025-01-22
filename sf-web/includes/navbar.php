@@ -29,34 +29,34 @@ $current_page = basename($_SERVER['PHP_SELF']);
               <!-- Column 1 -->
               <div class="col-lg-4">
                 <h6 class="dropdown-header text-primary">Financial Management</h6>
-                <li><a class="dropdown-item" href="../pages/simfini.php" data-bs-toggle="tooltip" title="SimFini: Financial management for medium to large businesses.">SimFini</a></li>
-                <li><a class="dropdown-item" href="../pages/simjunior.php" data-bs-toggle="tooltip" title="SimFini: Financial management for small to medium businesses.">SimJunior</a></li>
-                <li><a class="dropdown-item" href="../pages/pointofsale.php" data-bs-toggle="tooltip" title="SimFini: Financial management software for your business.">Point of Sale</a></li>
+                <li><a class="dropdown-item" href="../pages/simfini.php" data-bs-toggle="tooltip" title="Financial management for medium to large businesses.">SimFini</a></li>
+                <li><a class="dropdown-item" href="../pages/simjunior.php" data-bs-toggle="tooltip" title="Financial management for small to medium businesses.">SimJunior</a></li>
+                <li><a class="dropdown-item" href="../pages/pointofsale.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Point of Sale</a></li>
                 <div class="pt-3"></div>
                 <h6 class="dropdown-header text-primary">Employee Management</h6>
-                <li><a class="dropdown-item" href="../pages/accord.php">Accord</a></li>
+                <li><a class="dropdown-item" href="../pages/accord.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Accord</a></li>
                 <div class="dropdown-divider"></div>
               </div>
               <!-- Column 2 -->
               <div class="col-lg-4">
                 <h6 class="dropdown-header text-primary">Livestock Management</h6>
-                <li><a class="dropdown-item" href="../pages/agrimilk.php">AgriMilk</a></li>
-                <li><a class="dropdown-item" href="../pages/agribeef.php">AgriBeef</a></li>
-                <li><a class="dropdown-item" href="../pages/feedlot.php">Feedlot</a></li>
+                <li><a class="dropdown-item" href="../pages/agrimilk.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">AgriMilk</a></li>
+                <li><a class="dropdown-item" href="../pages/agribeef.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">AgriBeef</a></li>
+                <li><a class="dropdown-item" href="../pages/feedlot.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Feedlot</a></li>
                 <div class="pt-3"></div>
                 <h6 class="dropdown-header text-primary">Vehicle Management</h6>
-                <li><a class="dropdown-item" href="../pages/vehiclecost.php">Vehicle Cost</a></li>
+                <li><a class="dropdown-item" href="../pages/vehiclecost.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Vehicle Cost</a></li>
                 <div class="dropdown-divider"></div>
               </div>
               <!-- Column 3 -->
               <div class="col-lg-4">
                 <h6 class="dropdown-header text-primary">Crops and Marketable Produce</h6>
-                <li><a class="dropdown-item" href="../pages/duet.php">Duet</a></li>
-                <li><a class="dropdown-item" href="../pages/saaiplan.php">Saaiplan</a></li>
+                <li><a class="dropdown-item" href="../pages/duet.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Duet</a></li>
+                <li><a class="dropdown-item" href="../pages/saaiplan.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Saaiplan</a></li>
                 <div class="pt-3"></div>
                 <h6 class="dropdown-header text-primary">Other Software</h6>
-                <li><a class="dropdown-item" href="../pages/rainstat.php">RainStat</a></li>
-                <li><a class="dropdown-item" href="../pages/hand.php">Hand</a></li>
+                <li><a class="dropdown-item" href="../pages/rainstat.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">RainStat</a></li>
+                <li><a class="dropdown-item" href="../pages/hand.php" data-bs-toggle="tooltip" title="Point of Sale system for small businesses.">Hand</a></li>
                 <div class="dropdown-divider"></div>
                  <!-- View all products row -->
                 <li><a class="dropdown-header text-primary fw-bold" href="/pages/products.php">View All Products</a></li>
