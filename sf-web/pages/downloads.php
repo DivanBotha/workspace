@@ -45,138 +45,156 @@
     <!-- Download Table -->
     <section class="mb-5">
         <div class="container narrow-container">
+
+            <!-- Include helper Program -->
+            <?php include("../helpers/program.php"); ?>
+            <?php 
+                $simfini = new program("SimFini"); 
+                $accord = new program("Accord"); 
+                $simjunior = new program("SimJunior"); 
+                $duet = new program("Duet"); 
+                $agribeef = new program("Agribeef"); 
+                $agrimilk = new program("Agrimilk"); 
+                $feedlot = new program("Feedlot"); 
+                $hand = new program("Hand"); 
+                $pos = new program("POS"); 
+                $rainstat = new program("Rainstat"); 
+                $saaiplan = new program("Saaiplan"); 
+                $vehicle = new program("Vehicle"); 
+            ?>
+
             <table class="table table-striped layout-fixed">
                 <tbody>
                     <!-- SimFini -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>SimFini</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $simfini->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $simfini->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $simfini->fullname; ?>"><?php echo $simfini->program; ?></a>
                         </td>
                     </tr>
                     <!-- SimJunior -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>SimJunior</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $simjunior->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $simjunior->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $simjunior->fullname; ?>"><?php echo $simjunior->program; ?></a>
                         </td>
                     </tr>
                     <!-- Point of Sale -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Point of Sale</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $pos->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $pos->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $pos->fullname; ?>"><?php echo $pos->program; ?></a>
                         </td>
                     </tr>
                     <!-- Accord -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Accord</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $accord->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $accord->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $accord->fullname; ?>"><?php echo $accord->program; ?></a>
                         </td>
                     </tr>
                     <!-- Duet -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Duet</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $duet->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $duet->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $duet->fullname; ?>"><?php echo $duet->program; ?></a>
                         </td>
                     </tr>
                     <!-- Saaiplan -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Saaiplan</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $saaiplan->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $saaiplan->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $saaiplan->fullname; ?>"><?php echo $saaiplan->program; ?></a>
                         </td>
                     </tr>
                     <!-- AgriMilk -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>AgriMilk</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $agrimilk->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $agrimilk->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $agrimilk->fullname; ?>"><?php echo $agrimilk->program; ?></a>
                         </td>
                     </tr>
                     <!-- AgriBeef -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>AgriBeef</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $agribeef->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $agribeef->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $agribeef->fullname; ?>"><?php echo $agribeef->program; ?></a>
                         </td>
                     </tr>
                     <!-- Feedlot -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Feedlot</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $feedlot->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $feedlot->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $feedlot->fullname; ?>"><?php echo $feedlot->program; ?></a>
                         </td>
                     </tr>
                     <!-- Vehicle Cost -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Vehicle Cost</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $vehicle->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $vehicle->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $vehicle->fullname; ?>"><?php echo $vehicle->program; ?></a>
                         </td>
                     </tr>
                     <!-- RainStat -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>RainStat</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $rainstat->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $rainstat->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $rainstat->fullname; ?>"><?php echo $rainstat->program; ?></a>
                         </td>
                     </tr>
                     <!-- Hand -->
-                    <tr>
+                    <tr class="align-middle">
                         <td>Hand</td>
                         <td>
-                            Version 8.0d<br/>
-                            Updated: 2025-01-06
+                            <h6>Version <span class="price"><?php echo $hand->version; ?></span></h6>
+                            <h6>Last update date: <span class="price"><?php  echo date("d F Y", $hand->releasedate); ?></span></h6>
                         </td>
                         <td class="text-end">
-                            <a href="../downloads/hand.exe" class="btn btn-secondary" download>Download</a>
+                            <a class="btn btn-secondary w-75" href="<?php echo $hand->fullname; ?>"><?php echo $hand->program; ?></a>
                         </td>
                     </tr>
                 </tbody>

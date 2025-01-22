@@ -34,6 +34,19 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
+    <!-- Contact Information Section -->
+    <section class="container my-5">
+        <h2>Contact Us</h2>
+        <p>If you need to get in touch with us, here are our contact details:</p>
+
+        <ul class="list-unstyled">
+            <li><strong>Phone:</strong> +27 12 365 2683</li>
+            <li><strong>Email:</strong> <a href="mailto:support@softwarefarm.com">support@softwarefarm.com</a></li>
+            <li><strong>Physical Address:</strong> 18 Sawgrass Ave, Silver Lakes Golf Estate, Pretoria, South Africa. 0081</li>
+            <li><strong>Postal Address:</strong> P.O. Box 74017, Lynnwood Ridge, Pretoria, South Africa. 0040</li>
+        </ul>
+    </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     
