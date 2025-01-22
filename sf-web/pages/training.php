@@ -36,10 +36,10 @@
 
     <!-- Normal Training -->
     <section class="py-5">
-    <div class="container d-flex align-items-center">
+    <div class="container d-flex align-items-center mt-5">
             <!-- Left Side: Image -->
             <div class="col-md-6 text-center">
-                <img src="../assets/images/training.jpg" alt="Training Session" class="img-fluid rounded">
+                <img src="../assets/images/imageplaceholder.jpg" alt="Training Session" class="img-fluid rounded">
             </div>
 
             <!-- Right Side: Text -->

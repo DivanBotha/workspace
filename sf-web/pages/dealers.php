@@ -37,7 +37,7 @@
 
     <!-- Dealer Intro -->
     <section class="bg-secondary text-light text-center p-5">
-        <div class="container">
+        <div class="container narrow-container">
             <h2 class="mb-5">Our network of Dealers</h2>
             <p>
             Our network of dealers spans across South Africa, providing reliable agricultural solutions to farmers in every province. Each dealer offers expert advice, quality products, 
@@ -48,7 +48,7 @@
     </section>
 
     <!-- Dealer Sections by Province -->
-    <section class="container my-5">
+    <section class="container narrow-container my-5">
         <!-- Section for each province -->
         <?php
         $provinces = [
@@ -111,7 +111,7 @@
                         <div class='card'>
                             <img src='../assets/images/imageplaceholder.jpg' class='card-img-top' alt='Dealer Image'>
                             <div class='card-body'>
-                                <h5 class='card-title'>{$dealer['name']}</h5>
+                                <h5 class='card-title>{$dealer['name']}</h5>
                                 <p class='card-text'>Location: {$dealer['city']}</p>
                                 <p class='card-text'>Contact: {$dealer['contact']}</p>
                                 <p class='card-text'>Mobile: {$dealer['mobile']}</p>

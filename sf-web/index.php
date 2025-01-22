@@ -66,7 +66,7 @@
 
     <!-- Product Showcase -->
     <section class="text-center p-5 bg-secondary text-light">
-        <div class="container">
+        <div class="container narrow-container">
             <h2 class="mb-4">Our Software Products</h2> <!-- Added margin-bottom -->
             <p class="mb-4">Software farm boasts a range of 12 software products to help you manage different aspects of your agricultural business.</p>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -118,7 +118,7 @@
 
     <!-- Dealer Showcase -->
     <section class="text-center p-5">
-        <div class="container">
+        <div class="container narrow-container">
             <h2 class="mb-4">Our Dealers</h2>
             <p>We have a network of independant dealers and agricultural bureau&apos;s across various provinces in South Africa.</p>
             <div id="dealerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
