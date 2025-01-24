@@ -47,6 +47,9 @@
                 <p class="lead">
                     Software for Agricultural Management
                 </p>
+                <div class="py-5">
+                    <a href="pages/products.php" class="btn btn-secondary">View our products</a>
+                </div>
             </div>
         </div>
     </section>

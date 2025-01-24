@@ -42,9 +42,9 @@
         </div>
     </section>
 
-    <!-- Download Table -->
-    <section class="mb-5">
-        <div class="container narrow-container">
+    <!-- Table Replacement -->
+    <section class="py-5">
+        <div class="container narrow-container pb-5">
 
             <!-- Include helper Program -->
             <?php include("../helpers/program.php"); ?>
@@ -63,144 +63,215 @@
                 $vehicle = new program("Vehicle"); 
             ?>
 
-            <table class="table table-striped layout-fixed">
-                <tbody>
-                    <!-- SimFini -->
-                    <tr class="align-middle">
-                        <td>SimFini</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $simfini->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $simfini->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $simfini->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $simfini->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- SimJunior -->
-                    <tr class="align-middle">
-                        <td>SimJunior</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $simjunior->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $simjunior->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $simjunior->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $simjunior->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Point of Sale -->
-                    <tr class="align-middle">
-                        <td>Point of Sale</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $pos->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $pos->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $pos->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $pos->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Accord -->
-                    <tr class="align-middle">
-                        <td>Accord</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $accord->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $accord->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $accord->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $accord->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Duet -->
-                    <tr class="align-middle">
-                        <td>Duet</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $duet->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $duet->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $duet->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $duet->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Saaiplan -->
-                    <tr class="align-middle">
-                        <td>Saaiplan</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $saaiplan->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $saaiplan->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $saaiplan->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $saaiplan->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- AgriMilk -->
-                    <tr class="align-middle">
-                        <td>AgriMilk</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $agrimilk->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $agrimilk->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $agrimilk->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $agrimilk->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- AgriBeef -->
-                    <tr class="align-middle">
-                        <td>AgriBeef</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $agribeef->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $agribeef->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $agribeef->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $agribeef->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Feedlot -->
-                    <tr class="align-middle">
-                        <td>Feedlot</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $feedlot->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $feedlot->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $feedlot->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $feedlot->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Vehicle Cost -->
-                    <tr class="align-middle">
-                        <td>Vehicle Cost</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $vehicle->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $vehicle->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $vehicle->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $vehicle->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- RainStat -->
-                    <tr class="align-middle">
-                        <td>RainStat</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $rainstat->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $rainstat->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $rainstat->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $rainstat->program; ?></span></a>
-                        </td>
-                    </tr>
-                    <!-- Hand -->
-                    <tr class="align-middle">
-                        <td>Hand</td>
-                        <td>
-                            <h6><i class="bi bi-clipboard2-check me-2"></i>Version <span class="price"><?php echo $hand->version; ?></span></h6>
-                            <h6><i class="bi bi-calendar me-2"></i>Last update date: <span class="price"><?php  echo date("d F Y", $hand->releasedate); ?></span></h6>
-                        </td>
-                        <td class="text-end">
-                            <a class="btn btn-secondary w-75" href="<?php echo $hand->fullname; ?>"><span><i class="bi bi-download me-2"></i><?php echo $hand->program; ?></span></a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- SimFini -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>SimFini</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $simfini->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $simfini->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($simfini->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $simfini->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $simfini->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- SimJunior -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>SimJunior</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $simjunior->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $simjunior->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($simjunior->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $simjunior->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $simjunior->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Point of Sale -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Point of Sale</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $pos->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $pos->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($pos->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $pos->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $pos->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Accord -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Accord</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $accord->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $accord->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($accord->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $accord->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $accord->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Duet -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Duet</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $duet->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $duet->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($duet->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $duet->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $duet->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Saaiplan -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Saaiplan</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $saaiplan->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $saaiplan->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($saaiplan->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $saaiplan->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $saaiplan->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- AgriMilk -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>AgriMilk</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $agrimilk->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $agrimilk->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($agrimilk->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $agrimilk->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $agrimilk->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- AgriBeef -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>AgriBeef</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $agribeef->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $agribeef->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($agribeef->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $agribeef->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $agribeef->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feedlot -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Feedlot</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $feedlot->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $feedlot->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($feedlot->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $feedlot->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $feedlot->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Vehicle Cost -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Vehicle Cost</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $vehicle->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $vehicle->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($vehicle->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $vehicle->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $vehicle->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- RainStat -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>RainStat</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $rainstat->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $rainstat->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($rainstat->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $rainstat->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $rainstat->program; ?>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hand -->
+            <div class="row p-3 align-items-center border-bottom">
+                <div class="col-md-2">
+                    <h5>Hand</h5>
+                </div>
+                <div class="col-md-6">
+                    <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $hand->version; ?></span></h6>
+                    <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $hand->releasedate); ?></span></h6>
+                    <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($hand->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
+                </div>
+                <div class="col-md-4 text-md-end text-start">
+                    <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $hand->fullname; ?>">
+                        <i class="bi bi-download me-2"></i><?php echo $hand->program; ?>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+
+
+
+
     
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
