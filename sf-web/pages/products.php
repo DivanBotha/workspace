@@ -40,63 +40,74 @@
             <h2 class="text-center p-5">Financial Management</h2>
 
             <!-- SimFini Product -->
-            <div class="row align-items-center mb-5">
+            <div class="row align-items-center my-5">
                 <div class="col-md-6">
                     <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="SimFini"> <!-- Image on the left -->
                 </div>
                 <div class="col-md-6">
                     <h3>SimFini</h3>
                     <p>SimFini is a comprehensive farm management software that helps farmers efficiently manage their financials, track expenses, and optimize profits.</p>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled py-4">
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Manage financial transactions</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track income and expenses</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate detailed reports</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Integrate with banking systems</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Multi-user access for team collaboration</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/simfini.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
 
             <!-- SimJunior Product -->
-            <div class="row align-items-center mb-5">
-                <div class="col-md-6 order-md-2">
-                    <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="SimJunior"> <!-- Image on the left -->
-                </div>
+            <div class="row align-items-center my-5">
                 <div class="col-md-6">
                     <h3>SimJunior</h3>
                     <p>SimJunior is a simplified version of SimFini, designed specifically for smaller farms or farmers new to digital financial management.</p>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled py-4">
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Simple and intuitive interface</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track income and expenses</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate basic reports</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Ideal for small to medium farms</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Easy setup and user-friendly</li>
                     </ul>
+                    <div class="text-start">
+                        <a href="../pages/simjunior.php" class="btn btn-primary">Find out more</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="SimJunior">
                 </div>
             </div>
 
             <!-- Point of Sale Product -->
-            <div class="row align-items-center mb-5">
+            <div class="row align-items-center my-5">
                 <div class="col-md-6">
-                    <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="Point of Sale"> <!-- Image on the left -->
+                    <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="Point of Sale">
                 </div>
                 <div class="col-md-6">
                     <h3>Point of Sale</h3>
                     <p>Point of Sale (POS) is a seamless solution for farm-based transactions, enabling efficient sales management, invoicing, and inventory tracking.</p>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled py-4">
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Real-time inventory tracking</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Fast and secure transactions</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate invoices and receipts</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Integrates with financial software</li>
                         <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Supports multiple payment methods</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/pointofsale.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <hr>
+
     <!-- Employee Management Section -->
-    <section class="bg-secondary">
+    <section class="bg-secondary text-light">
         <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Employee Management</h2>
 
