@@ -55,60 +55,57 @@
     </section>
 
     <!-- Company Showcase -->
-    <section class="text-center p-5">
-        <div class="container narrow-container">
-            <h2 class="mb-4">Over 30 years of experience!</h2>
-            <p>At Software Farm, established in 1997 through the integration of Properdata and Tarragon Computing &apos;s agricultural software, we have built a legacy of providing 
-               practical, reliable solutions tailored to the agricultural sector. Our operations are managed from Pretoria, with our software distributed through a trusted network of 
-               dealers across South Africa to ensure accessibility and support for our clients. Guided by our mission to deliver user-friendly tools that simplify operations and 
-               improve efficiency, we remain committed to enhancing our products to meet the needs of a dynamic, evolving market. Our vision is to empower agricultural businesses 
-               with dependable software that supports their success and sustainability.
+    <section class="text-center my-5">
+        <div class="container narrow-container my-5">
+            <h2 class="mb-4">Simplify Your Agricultural Operations with Software Farm</h2>
+            <p>Since 1997, Software Farm has provided reliable and practical software solutions for agricultural businesses. Designed with simplicity and functionality in mind, 
+                our tools help streamline operations, manage finances, and optimize productivity. Explore our solutions today and take your farming management to the next level.
             </p>
         </div>
     </section>
 
     <!-- Product Showcase -->
-    <section class="text-center p-5 bg-secondary text-light">
+    <section class="text-center p-5 bg-light">
         <div class="container narrow-container">
             <h2 class="mb-4">Our Software Products</h2> <!-- Added margin-bottom -->
             <p class="mb-4">Software farm boasts a range of 12 software products to help you manage different aspects of your agricultural business.</p>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- SimFini Card -->
                 <div class="col">
-                    <div class="card bg-primary text-light h-100 shadow">
+                    <div class="card bg-secondary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="SimFini Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">SimFini</h3>
                             <p class="card-text">
                                 Financial management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="/pages/simfini.php" class="btn btn-secondary">Find out more</a>
+                            <a href="/pages/simfini.php" class="btn btn-primary">Find out more</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 2 -->
                 <div class="col">
-                    <div class="card bg-primary text-light h-100 shadow">
+                    <div class="card bg-secondary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Accord Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Accord</h3>
                             <p class="card-text">
                                 Labour management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="/pages/accord.php" class="btn btn-secondary">Find out more</a>
+                            <a href="/pages/accord.php" class="btn btn-primary">Find out more</a>
                         </div>
                     </div>
                 </div>
                 <!-- Card 3 -->
                 <div class="col">
-                    <div class="card bg-primary text-light h-100 shadow">
+                    <div class="card bg-secondary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Duet Software">
                         <div class="card-body">
                             <h3 class="card-title mb-3">Duet</h3>
                             <p class="card-text">
                                 Marketable produce management software for the present-day farmer or agricultural business.
                             </p>
-                            <a href="pages/duet.php" class="btn btn-secondary">Find out more</a>
+                            <a href="pages/duet.php" class="btn btn-primary">Find out more</a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +120,8 @@
     <section class="text-center p-5">
         <div class="container narrow-container">
             <h2 class="mb-4">Our Dealers</h2>
-            <p>We have a network of independant dealers and agricultural bureau&apos;s across various provinces in South Africa.</p>
+            <p>Our extensive network of dealers spans South Africa, providing expert advice, quality products, and tailored services to farmers in every province. With locations
+                 in both urban and rural areas, our dealers are dedicated to supporting the growth of local agricultural enterprises.</p>
             <div id="dealerCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
                 <div class="carousel-inner">
                     <?php 
@@ -158,7 +156,7 @@
 
             <!-- View all dealers button -->
             <div class="mt-4">
-                <a href="/pages/dealers.php" class="btn btn-primary">View All Dealers</a>
+                <a href="/pages/dealers.php" class="btn btn-primary">Find a Dealer Near You</a>
             </div>
         </div>
     </section>

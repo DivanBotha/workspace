@@ -34,15 +34,20 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-center py-5">
+        <div class="container narrow-container my-5">
+            <h1>A Trusted Network of Experts</h1>
+        </div>
+    </section>
 
     <!-- Dealer Intro -->
-    <section class="bg-secondary text-light text-center p-5">
+    <section class="bg-light text-center p-5">
         <div class="container narrow-container">
-            <h2 class="mb-5">Our network of Dealers</h2>
+            <h2 class="mb-5">Our Dealers</h2>
             <p>
-            Our network of dealers spans across South Africa, providing reliable agricultural solutions to farmers in every province. Each dealer offers expert advice, quality products, 
-            and dedicated service to help meet the diverse needs of the agricultural community. With locations in both rural and urban areas, our dealers are committed to supporting the 
-            growth and success of local farming operations. Explore our dealer network to find the right partner for your farming needs.
+            Our extensive network of dealers spans South Africa, providing expert advice, quality products, and tailored services to farmers in every province. With locations in 
+            both urban and rural areas, our dealers are dedicated to supporting the growth of local agricultural enterprises.
             </p>
         </div>
     </section>

@@ -34,13 +34,20 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-center py-5">
+        <div class="container narrow-container my-5">
+            <h1>Tools for Agricultural Success</h1>
+        </div>
+    </section>
+    
     <!-- Financial Management Section -->
     <section>
-        <div class="container narrow-container mt-5 pb-5">
+        <div class="container narrow-container mt-5">
             <h2 class="text-center p-5">Financial Management</h2>
 
             <!-- SimFini Product -->
-            <div class="row align-items-center my-5">
+            <div class="row align-items-center pb-5">
                 <div class="col-md-6">
                     <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="SimFini"> <!-- Image on the left -->
                 </div>
@@ -60,8 +67,12 @@
                 </div>
             </div>
 
+            <div class="row py-5">
+                <hr>
+            </div>
+
             <!-- SimJunior Product -->
-            <div class="row align-items-center my-5">
+            <div class="row align-items-center">
                 <div class="col-md-6">
                     <h3>SimJunior</h3>
                     <p>SimJunior is a simplified version of SimFini, designed specifically for smaller farms or farmers new to digital financial management.</p>
@@ -79,6 +90,10 @@
                 <div class="col-md-6 text-end">
                     <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="SimJunior">
                 </div>
+            </div>
+
+            <div class="row py-5">
+                <hr>
             </div>
 
             <!-- Point of Sale Product -->
@@ -104,10 +119,8 @@
         </div>
     </section>
 
-    <hr>
-
     <!-- Employee Management Section -->
-    <section class="bg-secondary text-light">
+    <section class="bg-light">
         <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Employee Management</h2>
 
@@ -119,13 +132,16 @@
                 <div class="col-md-6">
                     <h3>Accord</h3>
                     <p>Accord is a software solution designed to manage farm employees, track working hours, payroll, and other HR functions.</p>
-                    <ul>
-                        <li>Track employee hours</li>
-                        <li>Generate payroll and reports</li>
-                        <li>Manage job roles and responsibilities</li>
-                        <li>Employee performance tracking</li>
-                        <li>Integration with financial systems</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Track employee hours</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Generate payroll and reports</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Manage job roles and responsibilities</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Employee performance tracking</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Integration with financial systems</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/accord.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,14 +160,21 @@
                 <div class="col-md-6">
                     <h3>AgriMilk</h3>
                     <p>AgriMilk is a software solution for dairy farmers, designed to track milk production, livestock health, and farm profitability.</p>
-                    <ul>
-                        <li>Monitor milk production levels</li>
-                        <li>Track livestock health and growth</li>
-                        <li>Generate detailed production reports</li>
-                        <li>Manage inventory of dairy supplies</li>
-                        <li>Optimize farm profitability</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Monitor milk production levels</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track livestock health and growth</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate detailed production reports</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Manage inventory of dairy supplies</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Optimize farm profitability</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/agrimilk.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row py-5">
+                <hr>
             </div>
 
             <!-- AgriBeef Product -->
@@ -162,14 +185,21 @@
                 <div class="col-md-6">
                     <h3>AgriBeef</h3>
                     <p>AgriBeef is tailored for beef cattle farmers, helping track livestock performance, breeding, and sales data.</p>
-                    <ul>
-                        <li>Track cattle performance and growth</li>
-                        <li>Manage breeding schedules</li>
-                        <li>Monitor weight and health data</li>
-                        <li>Generate detailed sales and profit reports</li>
-                        <li>Integrate with financial and inventory systems</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track cattle performance and growth</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Manage breeding schedules</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Monitor weight and health data</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate detailed sales and profit reports</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Integrate with financial and inventory systems</li>
                     </ul>
+                    <div class="text-start">
+                        <a href="../pages/agribeef.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row py-5">
+                <hr>
             </div>
 
             <!-- Feedlot Product -->
@@ -180,20 +210,23 @@
                 <div class="col-md-6">
                     <h3>Feedlot</h3>
                     <p>Feedlot is a comprehensive software solution for managing feedlot operations, monitoring cattle growth, and optimizing feed usage.</p>
-                    <ul>
-                        <li>Track feed consumption and growth</li>
-                        <li>Manage feedlot capacity and costs</li>
-                        <li>Monitor cattle health and performance</li>
-                        <li>Generate profit and cost reports</li>
-                        <li>Integrate with livestock and financial systems</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track feed consumption and growth</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Manage feedlot capacity and costs</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Monitor cattle health and performance</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate profit and cost reports</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Integrate with livestock and financial systems</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/feedlot.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Crops and Marketable Produce Section -->
-    <section class="bg-secondary">
+    <section class="bg-light">
         <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Crops and Marketable Produce</h2>
 
@@ -205,14 +238,21 @@
                 <div class="col-md-6">
                     <h3>Saaiplan</h3>
                     <p>Saaiplan is a crop management software designed to assist farmers in planning, planting, and managing crop cycles efficiently.</p>
-                    <ul>
-                        <li>Plan and schedule crop planting</li>
-                        <li>Monitor soil health and conditions</li>
-                        <li>Track crop performance and yield</li>
-                        <li>Optimize irrigation and resource usage</li>
-                        <li>Generate detailed crop reports</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Plan and schedule crop planting</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Monitor soil health and conditions</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Track crop performance and yield</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Optimize irrigation and resource usage</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Generate detailed crop reports</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/saaiplan.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row py-5">
+                <hr>
             </div>
 
             <!-- Duet Product -->
@@ -223,13 +263,16 @@
                 <div class="col-md-6">
                     <h3>Duet</h3>
                     <p>Duet is an advanced crop and farm management software for larger agricultural operations focused on maximizing yield and efficiency.</p>
-                    <ul>
-                        <li>Track and manage multiple crops</li>
-                        <li>Optimize resource usage and crop yield</li>
-                        <li>Real-time farm management updates</li>
-                        <li>Comprehensive data analytics</li>
-                        <li>Easy integration with other farm management systems</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Track and manage multiple crops</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Optimize resource usage and crop yield</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Real-time farm management updates</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Comprehensive data analytics</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Easy integration with other farm management systems</li>
                     </ul>
+                    <div class="text-start">
+                        <a href="../pages/duet.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -248,20 +291,23 @@
                 <div class="col-md-6">
                     <h3>Vehicle Cost</h3>
                     <p>Vehicle Cost helps manage the maintenance and operational costs associated with farming vehicles and machinery.</p>
-                    <ul>
-                        <li>Track vehicle maintenance schedules</li>
-                        <li>Calculate fuel and operational costs</li>
-                        <li>Manage vehicle usage and performance</li>
-                        <li>Generate cost analysis reports</li>
-                        <li>Optimize fleet management</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Track vehicle maintenance schedules</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Calculate fuel and operational costs</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Manage vehicle usage and performance</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Generate cost analysis reports</li>
+                        <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Optimize fleet management</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/vehiclecost.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Other Section -->
-    <section class="bg-secondary">
+    <section class="bg-light">
         <div class="container narrow-container mt-5 pb-5">
             <h2 class="text-center p-5">Other</h2>
 
@@ -273,14 +319,21 @@
                 <div class="col-md-6">
                     <h3>RainStat</h3>
                     <p>RainStat is a weather and rain tracking software designed to help farmers monitor weather patterns and optimize irrigation.</p>
-                    <ul>
-                        <li>Track rainfall and weather data</li>
-                        <li>Optimize irrigation schedules</li>
-                        <li>Receive weather forecasts and alerts</li>
-                        <li>Integrate with crop and resource management systems</li>
-                        <li>Generate weather-related reports</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Track rainfall and weather data</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Optimize irrigation schedules</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Receive weather forecasts and alerts</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Integrate with crop and resource management systems</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Generate weather-related reports</li>
                     </ul>
+                    <div class="text-end">
+                        <a href="../pages/rainstat.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row py-5">
+                <hr>
             </div>
 
             <!-- Hand Product -->
@@ -291,13 +344,16 @@
                 <div class="col-md-6">
                     <h3>Hand</h3>
                     <p>Hand is a mobile app that allows farmers to manage their daily tasks, track activities, and collaborate with team members.</p>
-                    <ul>
-                        <li>Track daily tasks and activities</li>
-                        <li>Collaborate with team members in real-time</li>
-                        <li>Manage farm chores efficiently</li>
-                        <li>Set reminders and alerts for tasks</li>
-                        <li>Easy-to-use mobile interface</li>
+                    <ul class="list-unstyled py-4">
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Track daily tasks and activities</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Collaborate with team members in real-time</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Manage farm chores efficiently</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Set reminders and alerts for tasks</li>
+                        <li><i class="bi bi-check-circle-fill me-2"></i>Easy-to-use mobile interface</li>
                     </ul>
+                    <div class="text-start">
+                        <a href="../pages/hand.php" class="btn btn-primary">Find out more</a>
+                    </div>
                 </div>
             </div>
         </div>

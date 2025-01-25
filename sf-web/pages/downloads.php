@@ -68,12 +68,15 @@
                 <div class="col-md-2">
                     <h5>SimFini</h5>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h6><i class="bi bi-clipboard2-check me-2"></i>Version: <span class="price"><?php echo $simfini->version; ?></span></h6>
                     <h6><i class="bi bi-calendar me-2"></i>Last update: <span class="price"><?php echo date("d F Y", $simfini->releasedate); ?></span></h6>
                     <h6><i class="bi bi-file-earmark-font me-2"></i>File Size: <span class="price"><?php echo number_format($simfini->filesize / 1024 / 1024, 2); ?> MB</span></h6> <!-- Added file size -->
                 </div>
-                <div class="col-md-4 text-md-end text-start">
+                <div class="col-md-3 text-md-end text-start">
+                    <a class="btn btn-primary w-75 w-md-auto" href="<?php echo $simfini->fullname; ?>">Trial</a>
+                </div>
+                <div class="col-md-3 text-md-end text-start">
                     <a class="btn btn-secondary w-75 w-md-auto" href="<?php echo $simfini->fullname; ?>">
                         <i class="bi bi-download me-2"></i><?php echo $simfini->program; ?>
                     </a>

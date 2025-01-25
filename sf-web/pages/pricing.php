@@ -34,73 +34,99 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
-    <!-- How pricing works -->
-    <section class="bg-secondary text-light py-5">
-        <div class="container narrow-container">
-            <h2 class="text-center">How it Works</h2>
-            
-            <!-- Annual License Fee Section -->
-            <div class="my-5">
-                <h3 class="text-center">The Annual License Fee</h3>
-                <p class="text-center mt-3">
-                    The annual license fee covers the support and updates for our software products. 
-                    You only pay one annual license fee, regardless of how many of our software products you use.
-                </p>
-                <div class="row text-center g-4">
-                    <!-- Card 1 -->
-                    <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100 shadow">
-                            <div class="card-body">
-                                <h4 class="card-title">One License Fee</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100 shadow">
-                            <div class="card-body">
-                                <h4 class="card-title">Many Products</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Standard License Section -->
-            <div class="my-5">
-                <h3 class="text-center">The Standard License</h3>
-                <p class="text-center mt-3">
-                    The standard license for any of our software products includes one (1) network point 
-                    and two (2) data sets. Additional network points and data sets can be added for a one-time fee.
-                </p>
-                <div class="row text-center g-4">
-                    <!-- Card 1 -->
-                    <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100 shadow">
-                            <div class="card-body">
-                                <h4 class="card-title">1 Network Point</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-6">
-                        <div class="card bg-primary text-light h-100 shadow">
-                            <div class="card-body">
-                                <h4 class="card-title">2 Data Sets</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- License Agreement -->
-            <div class="mt-5 d-flex justify-content-between align-items-center">
-                <h3>What do I get for an annual license fee?</h3>
-                <a href="../pages/License.php" class="btn btn-primary" target="_blank">View License Agreement</a>
-            </div>
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-center py-5">
+        <div class="container narrow-container my-5">
+            <h1>Affordable, Transparent Pricing for Every Farm</h1>
+            <p class="lead">Flexible plans tailored to meet your agricultural needs.</p>
         </div>
     </section>
 
+    <!-- How It Works Section -->
+    <section class="py-5 bg-light">
+        <div class="container narrow-container my-5">
+            <h2 class="mb-5 text-center">How It Works</h2>
+
+            <!-- Step 1 -->
+            <div class="row mb-4 shadow rounded">
+                <!-- Step Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                    <h4>Step 1</h4>
+                </div>
+                <!-- Description Card -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 p-3">
+                        Explore our products by downloading a trial version for the software you are interested in. 
+                        Get hands-on experience with the features before committing.
+                    </p>
+                </div>
+                <!-- Button Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <a href="../pages/downloads.php" class="btn btn-primary w-75">Download Trial</a>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="row mb-4 shadow rounded">
+                <!-- Step Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                    <h4>Step 2</h4>
+                </div>
+                <!-- Description Card -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 p-3">
+                        Sign up for a Software Farm account for an annual fee of R4632.00. 
+                        This fee includes updates and support for all products linked to your account.
+                    </p>
+                </div>
+                <!-- Button Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <a href="../pages/contact.php" class="btn btn-primary w-75">Contact Us</a>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="row mb-4 shadow rounded">
+                <!-- Step Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                    <h4>Step 3</h4>
+                </div>
+                <!-- Description Card -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 p-3">
+                        Expand your account by adding the software products you need. 
+                        Each product is available at a once-off cost tailored to its functionality.
+                    </p>
+                </div>
+                <!-- Button Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <a href="../pages/contact.php" class="btn btn-primary w-75">Contact Us</a>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="row mb-4 shadow rounded">
+                <!-- Step Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                    <h4>Step 4</h4>
+                </div>
+                <!-- Description Card -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 p-3">
+                        Enhance your software license by adding additional network points (devices) 
+                        or data sets (companies) to meet the demands of your operations.
+                    </p>
+                </div>
+                <!-- Button Card -->
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <a href="../pages/contact.php" class="btn btn-primary w-75">Contact Us</a>
+                </div>
+            </div>
+            <div class="text-center my-5">
+                <a href="../pages/License.php" class="btn btn-primary">View the License Agreement</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Pricing Section -->
     <section class="py-5">

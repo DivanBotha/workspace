@@ -34,28 +34,36 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
-    <!-- Normal Training -->
-    <section class="py-5">
-    <div class="container d-flex align-items-center mt-5">
-            <!-- Left Side: Image -->
-            <div class="col-md-6 text-center">
-                <img src="../assets/images/imageplaceholder.jpg" alt="Training Session" class="img-fluid rounded">
-            </div>
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-center py-5">
+        <div class="container narrow-container my-5">
+            <h1>Empowering Your Team</h1>
+        </div>
+    </section>
 
-            <!-- Right Side: Text -->
+    <!-- Training -->
+    <section class="container narrow-container my-5">
+        <div class="row align-items-center pb-5">
             <div class="col-md-6">
-                <h2>Book Your Training Session</h2>
-                <ul class="list-unstyled">
-                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i> Personalized training sessions</li>
-                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i> Tailored to your needs</li>
-                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i> Expert trainers available</li>
+                <img src="../assets/images/imageplaceholder.jpg" class="img-fluid" alt="SimFini"> <!-- Image on the left -->
+            </div>
+            <div class="col-md-6">
+                <h3>Book a Training Session</h3>
+                <p>Software Farm offers comprehensive training to ensure that you and your team can fully leverage our software solutions. With step-by-step guidance and ongoing 
+                    support, we ensure that your operations run smoothly from day one..</p>
+                <ul class="list-unstyled py-4">
+                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Personalised training sessions</li>
+                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Tailored to your needs</li>
+                    <li><i class="bi bi-check-circle-fill icon-secondary me-2"></i>Expert trainers available</li>
                 </ul>
-                <a href="../assets/forms/training-booking-form.pdf" download class="btn btn-primary mt-3">
-                    <i class="bi bi-download me-2"></i>Download Booking Form
-                </a>
+                <div class="text-end">
+                    <a href="../assets/forms/training-booking-form.pdf" class="btn btn-primary"><i class="bi bi-download me-2"></i>Download Booking Form</a>
+                </div>
             </div>
         </div>
     </section>
+
+
 
     <!-- Training Events -->
     <section class="text-center py-5">

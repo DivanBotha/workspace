@@ -34,6 +34,14 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-center py-5">
+        <div class="container narrow-container my-5">
+            <h1>Trusted Solutions, Tailored for Agriculture</h1>
+            <p class="lead">with more than 30 years experience.</p>
+        </div>
+    </section>
+
     <!-- Our History -->
     <section class="text-center py-5">
         <div class="container narrow-container mt-5">
@@ -54,7 +62,7 @@
     </section>
 
     <!-- Our Mission -->
-    <section class="text-center p-5 bg-secondary text-light">
+    <section class="text-center p-5 bg-light">
         <div class="container narrow-container">
             <h2 class="mb-4">Our Mission</h2>
             <p>
