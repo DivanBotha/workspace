@@ -38,7 +38,7 @@
     <section class="hero bg-secondary text-center py-5">
         <div class="container narrow-container my-5">
             <h1>Affordable, Transparent Pricing for Every Farm</h1>
-            <p class="lead">Flexible plans tailored to meet your agricultural needs.</p>
+            <p class="lead">One annual license fee for multiple products.</p>
         </div>
     </section>
 

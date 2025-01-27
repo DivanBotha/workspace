@@ -34,6 +34,36 @@
     <!-- Include Header -->
     <?php include("../includes/header.php"); ?>
 
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-center py-5">
+        <div class="container narrow-container my-5">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+    </section>
+
+    <!-- Include FAQ Function -->
+    <?php include("../helpers/faqs_function.php"); ?>    
+
+    <!-- FAQ Section -->
+    <section class="container narrow-container my-5 py-5">
+        <div class="accordion" id="faqAccordion">
+            <?php foreach ($faqs as $index => $faq): ?>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading<?php echo $index; ?>">
+                        <button class="accordion-button <?php echo $index !== 0 ? 'collapsed' : ''; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo $index; ?>" aria-expanded="<?php echo $index === 0 ? 'true' : 'false'; ?>" aria-controls="collapse<?php echo $index; ?>">
+                            <?php echo $faq['question']; ?>
+                        </button>
+                    </h2>
+                    <div id="collapse<?php echo $index; ?>" class="accordion-collapse collapse <?php echo $index === 0 ? 'show' : ''; ?>" aria-labelledby="heading<?php echo $index; ?>" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            <?php echo $faq['answer']; ?>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </section>
+
     <!-- Include Footer -->
     <?php include("../includes/footer.php"); ?>
     
