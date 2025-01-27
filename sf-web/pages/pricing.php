@@ -50,7 +50,7 @@
             <!-- Step 1 -->
             <div class="row mb-4 shadow rounded">
                 <!-- Step Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded p-3">
                     <h4>Step 1</h4>
                 </div>
                 <!-- Description Card -->
@@ -61,7 +61,7 @@
                     </p>
                 </div>
                 <!-- Button Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <div class="col-md-3 d-flex align-items-center justify-content-center my-3">
                     <a href="../pages/downloads.php" class="btn btn-primary w-75">Download Trial</a>
                 </div>
             </div>
