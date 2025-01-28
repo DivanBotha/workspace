@@ -91,3 +91,12 @@ body {
 .icon-secondary {
     color: var(--color-secondary);
 }
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+      max-height: 300px; /* Limit the height to prevent overflow */
+      overflow-y: auto; /* Enable vertical scrolling */
+      overflow-x: hidden; /* Disable horizontal scrolling */
+    }
+  }
+  

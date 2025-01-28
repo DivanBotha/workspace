@@ -24,8 +24,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
           <a class="nav-link dropdown-toggle" href="/pages/products.php" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Products
           </a>
-          <ul class="dropdown-menu dropdown-menu-end p-3" aria-labelledby="productsDropdown">
-            <div class="d-lg-flex flex-lg-row flex-column" style="width: 900px;">
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-scroll p-3" aria-labelledby="productsDropdown">
+            <div class="d-lg-flex flex-lg-row flex-column p-3" style="width: 600px;">
               <!-- Column 1 -->
               <div class="col-lg-4">
                 <h6 class="dropdown-header text-primary">Financial Management</h6>
