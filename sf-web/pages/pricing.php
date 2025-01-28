@@ -69,7 +69,7 @@
             <!-- Step 2 -->
             <div class="row mb-4 shadow rounded">
                 <!-- Step Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded p-3">
                     <h4>Step 2</h4>
                 </div>
                 <!-- Description Card -->
@@ -80,7 +80,7 @@
                     </p>
                 </div>
                 <!-- Button Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <div class="col-md-3 d-flex align-items-center justify-content-center my-3">
                     <a href="../pages/contact.php" class="btn btn-primary w-75">Contact Us</a>
                 </div>
             </div>
@@ -88,7 +88,7 @@
             <!-- Step 3 -->
             <div class="row mb-4 shadow rounded">
                 <!-- Step Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded p-3">
                     <h4>Step 3</h4>
                 </div>
                 <!-- Description Card -->
@@ -99,7 +99,7 @@
                     </p>
                 </div>
                 <!-- Button Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <div class="col-md-3 d-flex align-items-center justify-content-center my-3">
                     <a href="../pages/contact.php" class="btn btn-primary w-75">Contact Us</a>
                 </div>
             </div>
@@ -107,7 +107,7 @@
             <!-- Step 4 -->
             <div class="row mb-4 shadow rounded">
                 <!-- Step Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded">
+                <div class="col-md-3 d-flex align-items-center justify-content-center bg-secondary rounded p-3">
                     <h4>Step 4</h4>
                 </div>
                 <!-- Description Card -->
@@ -118,7 +118,7 @@
                     </p>
                 </div>
                 <!-- Button Card -->
-                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <div class="col-md-3 d-flex align-items-center justify-content-center my-3">
                     <a href="../pages/contact.php" class="btn btn-primary w-75">Contact Us</a>
                 </div>
             </div>
@@ -127,6 +127,34 @@
             </div>
         </div>
     </section>
+
+    <!-- Pricing Section -->
+     <section>
+        <h2 class="text-center m-5">Price List</h2>
+        <div class="container-fluid narrow-container">
+            <div class="row align-items-center bg-primary text-light py-2 rounded-top g-0">
+                <h4 class="text-center">SimFini</h4>
+            </div>
+            <div class="row border-bottom rounded bg-light g-0 pb-2">
+                <div class="col-md text-center">
+                    <h5 class="bg-secondary p-2">License</h5>
+                    <h6>1 Network Point</h6>
+                    <h6>2 Data Sets</h6>
+                </div>
+                <div class="col-md text-center">
+                    <h5 class="bg-secondary p-2">Once-Off Cost</h5>
+                    <h6><span class="price">R 7367-00</span></h6>
+                </div>
+                <div class="col-md text-center">
+                    <h5 class="bg-secondary p-2">Add On</h5>
+                    <h6>Network Point: <span class="price">R 736.70</span></h6>
+                    <h6>Data Set: <span class="price">R 736.70</span></h6>
+                    <h6>Transaction Transfers Module: <span class="price">R 736.70</span></h6>
+                    <h6>Data Merge Module: <span class="price">R 477.70</span></h6>
+                </div>
+            </div>
+        </div>
+     </section>
 
     <!-- Pricing Section -->
     <section class="py-5">
