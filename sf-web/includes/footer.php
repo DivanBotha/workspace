@@ -1,28 +1,32 @@
 <footer class="bg-primary text-light py-5">
-    <div class="container mt-3">
+    <div class="container mt-3 narrow-container">
         <div class="row">
-            <!-- Company Information -->
-            <div class="col-md-4 mb-3">
-                <h5>About Software Farm</h5>
-                <p>
-                    Software Farm (Pty) Ltd specializes in providing reliable software solutions for farmers and agricultural businesses, helping them streamline operations and maximize productivity.
-                </p>
+            <!-- Office Hours -->
+            <div class="col-md-5 mb-3">
+                <h5><i class="bi bi-clock me-2"></i> Office Hours</h5>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-calendar-check me-2"></i>Monday - Friday</li>
+                    <li><i class="bi bi-clock me-2"></i>08:00 - 13:00, 14:00 - 17:00</li>
+                    <li><i class="bi bi-calendar-x me-2"></i> Saturday: Closed</li>
+                    <li><i class="bi bi-calendar-x me-2"></i> Sunday: Closed</li>
+                    <li><i class="bi bi-exclamation-circle me-2"></i> Closed on Public Holidays</li>
+                </ul>
             </div>
 
             <!-- Quick Links -->
-            <div class="col-md-4 mb-3">
-                <h5>Quick Links</h5>
+            <div class="col-md-3 mb-3">
+                <h5><i class="bi bi-link-45deg me-2"></i> Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="/index.php" class="text-light text-decoration-none">Home</a></li>
-                    <li><a href="/pages/products.php" class="text-light text-decoration-none">Products</a></li>
-                    <li><a href="/pages/downloads.php" class="text-light text-decoration-none">Downloads</a></li>
-                    <li><a href="/pages/training.php" class="text-light text-decoration-none">Training</a></li>
+                    <li><i class="bi bi-house-door me-2"></i> <a href="/index.php" class="text-light text-decoration-none">Home</a></li>
+                    <li><i class="bi bi-box me-2"></i> <a href="/pages/products.php" class="text-light text-decoration-none">Products</a></li>
+                    <li><i class="bi bi-download me-2"></i> <a href="/pages/downloads.php" class="text-light text-decoration-none">Downloads</a></li>
+                    <li><i class="bi bi-mortarboard me-2"></i> <a href="/pages/training.php" class="text-light text-decoration-none">Training</a></li>
                 </ul>
             </div>
 
             <!-- Contact Information -->
             <div class="col-md-4 mb-3">
-                <h5>Contact Us</h5>
+                <h5><i class="bi bi-envelope-at me-2"></i> Contact Us</h5>
                 <p>
                     <i class="bi bi-telephone me-2"></i> 
                     <a href="tel:+27123652683" class="text-light text-decoration-none">012 365 2683</a>

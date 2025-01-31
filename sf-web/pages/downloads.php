@@ -35,14 +35,16 @@
     <?php include("../includes/header.php"); ?>
 
     <!-- Notification Section -->
-    <section class="text-center p-5">
+    <section class="text-center py-3">
         <div class="container narrow-container mt-5">
             <h1>Software Downloads</h1>
-            <p>Please note that thes products are subject to a yearly fee of R 4632.00. If you are not on a yearly fee please contact us.</p>
+            <p>Please note that these products are subject to a yearly fee of R 4632.00. If you are not on a yearly fee please contact us.</p>
+            <p class="bg-tertiary p-2">Unisa students : the CD provided by Unisa contains outdated versions of our products. If you have trouble installing from the CD, please download
+                 the latest versions of the software from this page.</p>
         </div>
     </section>
 
-    <!-- Table Replacement -->
+    <!-- Downloads Section -->
     <section class="py-5">
         <div class="container narrow-container pb-5">
 

@@ -38,6 +38,7 @@
     <section class="hero bg-secondary text-center py-5">
         <div class="container narrow-container my-5">
             <h1>Tools for Agricultural Success</h1>
+            <p class="lead">Microsoft Windows, Desktop-Based Software</p>
         </div>
     </section>
     

@@ -68,7 +68,7 @@
     <section class="text-center p-5 bg-light">
         <div class="container narrow-container">
             <h2 class="mb-4">Software Products</h2> <!-- Added margin-bottom -->
-            <p class="pb-4">We have a range of 12 software products to help you manage different aspects of your agricultural business.</p>
+            <p class="pb-4">We have a range of 12 desktop-based software products to help you manage different aspects of your agricultural business.</p>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- SimFini Card -->
                 <div class="col">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 2 -->
+                <!-- Accord Card -->
                 <div class="col">
                     <div class="card bg-secondary text-light h-100 shadow">
                         <img src="assets/images/imageplaceholder.jpg" class="card-img-top" alt="Accord Software">
